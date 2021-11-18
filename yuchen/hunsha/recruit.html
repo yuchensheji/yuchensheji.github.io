@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>招聘中心</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/index/favicon.ico">
+     <link rel="stylesheet" href="css/hoverhhf.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/wow.min.js" language="javascript"></script>
+	<script src="js/jquery-3.2.1.min.js" language="javascript"></script>
+	<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+		};
+   </script>
+	<script>
+	$(function(){
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
+		});
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).find(".down").stop(true).slideDown(300);
+		});
+		$(".box2 .jz .right li").mouseleave(function(){
+			$(this).find(".down").stop(true).slideUp(300);
+		});
+	});	
+</script>
+	
+<script>
+	$(function(){                                                     //当文档加载后读取以下函数
+		var xx=$(".box1").height()                                   //var为一个值，假设xx=class为box1的高度
+		$(window).scroll(function(){                                //当浏览器窗口滑动的时候执行以下动作
+		var yy=$(window).scrollTop();                               //var为一个值，假设yy等于浏览器窗口高度
+			if(yy>xx){$(".box2").addClass("hover1")}                  //如果yy>xx,那么给.box2添加一个class为hover1的属性值
+			else{$(".box2").removeClass("hover1")}                    //反之yy<xx，就给.box2移除class为hover1的属性	 
+		});
+	})
+
+
+</script>	
+	
+	
+	
+	
+	
+</head>
+
+<body>
+	
+	<div class="box1">
+		<div class="jz clear">
+			<div class="left clear">
+				<img class="m1" src="images/login/座机.png" alt="">
+				<p class="p1">客服热线: 400-628-1176</p>
+			</div>
+			<div class="right clear">
+				<div class="a1 clear">
+					<img class="m2" src="images/login/YUI-微博.png"  alt="">
+					<p class="p2"><a href="#">关注新浪微博</a></p>
+				</div>
+				<div class="a2 clear">
+					<img class="m3" src="images/login/微信.png" alt="">
+					<p class="p3"><a href="#">关注微信</a></p>
+				</div>
+				<div class="a3">
+					<span class="span1"><a href="Login.html" target="_blank">登录 / </a></span>
+					<span class="span2"><a href="register.html" target="_blank">注册</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box2">
+		<div class="jz clear">
+			<div class="left">
+			<img src="images/login/logo(横）.png" alt=""></div>
+			<div class="right">
+			  <ul class="clear">
+				  <li class="hover"><a href="index.html" target="_blank">首页</a>
+					  <div class="down">
+						   <a href="#"><p>最新活动</p></a>
+						   <a href="#"><p>产品分类</p></a>
+						   <a href="#"><p>资讯中心</p></a>
+						   <a href="#"><p>案例展示</p></a>
+					  </div>
+				  
+				  </li>
+				  <li><a href="product.html" target="_blank">产品分类</a>
+					  <div class="down down2">
+						   <a href="weddingdress.html" target="_blank"><p>婚纱系列</p></a>
+						   <a href="#"><p>礼服系列</p></a>
+						   <a href="#"><p>饰品系列</p></a>
+					  </div>
+				  
+				  
+				  </li>
+				  <li><a href="customize.html" target="_blank">定制预约</a>
+					  <div class="down down2">
+						   <a href="#"><p>服务流程</p></a>
+						   <a href="#"><p>定制预约</p></a>
+						   <a href="#"><p>精彩回顾</p></a>
+					  </div>
+				  
+				  
+				  </li>
+				  <li><a href="new.html" target="_blank">资讯中心</a>
+					  <div class="down down2">
+						   <a href="#"><p>内部资讯</p></a>
+						   <a href="#"><p>行业资讯</p></a>
+						   <a href="#"><p>常见问题</p></a>
+					    </div>
+				  
+				  </li>
+				  <li><a href="product.html" target="_blank">品牌介绍</a>
+					  <div class="down">
+						   <a href="#"><p>品牌介绍</p></a>
+						   <a href="#"><p>发展历程</p></a>
+						   <a href="#"><p>公司规模</p></a>
+						   <a href="#"><p>制作工艺</p></a>
+					     </div>
+				  </li>
+				  <li><a href="#">人员招聘</a>
+					   <div class="down">
+						   <a href="#"><p>婚纱设计师</p></a>
+						   <a href="#"><p>面料开发员</p></a>
+						   <a href="#"><p>策划专员</p></a>
+						   <a href="#"><p>陈列师</p></a>
+					     </div>
+				  
+				  </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	
+	
+<div class="banner47">
+	<div class="box47">
+		<img src="images/recruit/BANNER.jpg" width="100%"  height="auto" alt="">
+	</div>
+	<div class="jz">
+		  <div class="xf wow slideInLeft">
+			  <ul class="ul1">
+				   <li class="li1"><a href="#">婚纱系列</a>
+					   <ul class="ul2"> 
+						   <li><a href="#">A字型公主系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣系列</a></li>
+						   <li><a href="#">舞会型缎面系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">高端定制系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">气质女王类型</a></li>
+						   <li><a href="#">复古浪漫类型</a></li>
+						   <li><a href="#">幻境森林类型</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">礼服系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">仙气流苏吊带宴会服</a></li>
+						   <li><a href="#">气质亮片鱼尾晚礼服</a></li>
+						   <li><a href="#">简约绸缎舞会服</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">饰品系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">皇冠系列</a></li>
+						   <li><a href="#">头纱系列</a></li>
+						   <li><a href="#">首饰系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">热门推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">爆款推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">新品推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+			  </ul>
+		  </div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="join1">
+		<div class="jz">
+			<div class="shang"><img src="images/recruit/标题1.jpg" alt=""></div>
+			<p class="p1">
+				<span>诚聘英才：</span><br>
+我们的核心团队是一群有着丰富设计经验的精英。我们相信，对行业、市场及产品的准确判断会帮助我们从残酷的今天活到美好的后天，而明天，我们期待与你共同奋斗！<br>
+我们坚信与顶尖人才携手共进才是真正的成功之道，是企业不可复制的竞争优势。我们愿意尽最大努力在充满想象力的礼服行业为相信我们的英才提供最有竞争力的薪酬及广阔的舞台！<br>
+我们正在热招以下职位，如果你的背景与我们的需求契合，请给我们打个电话或发封邮件，我们相关部门的人员会第一时间联系你。<br>
+			</p>
+		</div>
+	</div>
+	
+	<div class="join2">
+		<div class="jz">
+			<div class="z1"><img class="m1  wow bounceInLeft" src="images/recruit/1.png" alt=""></div>
+			<div class="text1 wow bounceInRight">
+				<div class="pp1"><p class="p1">婚纱礼服制版师</p></div>
+				
+				<p class="p2">职位描述</p>
+				<p class="p3">1、根据设计师的要求，对设计稿进行分析，准确掌握设计师的设计理念及基本要求。提出创意性修改意见；</p>
+				<p class="p4">2、在样版制作符合设计要求完成之后，认真检查无误后，按面料实际幅宽排料、计算单耗、输出样板；</p>
+				<p class="p5">3、进行跟踪样衣制作，负责样衣的尺寸与质量把关，有责任的进行工艺指导及修改，保证样衣的准确性和符合性；</p>
+				<div class="pp6 hvr-radial-outa">
+					<p class="p6"><a href="#">具体要求及薪酬 请点击</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="join3">
+		<div class="jz">
+			<div class="text1  wow bounceInLeft">
+				<div class="pp1"><p class="p1">面料开发专员</p></div>
+				<p class="p2">职位描述</p>
+				<p class="p3">1、负责按公司下达的面料开发计划，搜索面料新品； </p>
+				<p class="p4">2、负责接收设计部的调样工作联系单，按申请需求进行调样，传递到货信息到设计部并寻找可替代面料； </p>
+				<p class="p5">3、负责面料辅料选择表的制作，完善样品成列以及物料成本的数据分析；</p>
+				<div class="pp6 hvr-radial-outa"><p class="p6"><a href="#">具体要求及薪酬 请点击</a></p></div>
+			</div>
+			<div class="z2"><img class="m1 wow bounceInRight" src="images/recruit/2.png" alt=""></div>
+		</div>
+	</div>
+	
+	<div class="join4">
+		<div class="jz">
+			<div class="z3"><img class="m1 wow bounceInLeft" src="images/recruit/3.png" alt=""></div>
+			<div class="text1 wow bounceInRight">
+				<div class="pp1"><p class="p1">企业文化策划专员</p></div>
+				
+				<p class="p2">职位描述</p>
+				<p class="p3">1、协助企业文化部经理，完成企业文化年度工作计划及企业文化工作的推进和建设。</p>
+				<p class="p4">2、具备良好的活动组织策划能力，有一定活动主持能力。</p>
+				<p class="p5">3、掌握一定的摄影技术，熟练操作办公软件及平面设计软件；</p>
+				<div class="pp6 hvr-radial-outa">
+					<p class="p6"><a href="#">具体要求及薪酬 请点击</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="join5">
+		<div class="jz">
+			<div class="text1 wow bounceInLeft">
+				<div class="pp1"><p class="p1">服装陈列设计师</p></div>
+				<p class="p2">职位描述</p>
+				<p class="p3">1、负责零售终端的商品陈列、橱窗陈列、模特出样的设计、制作及实际操作；</p>
+				<p class="p4">2、具有时尚感，良好的美术基础和敏锐的色彩平衡感，对品牌服装卖场、服饰产品布置、摆设有系统的认知；</p>
+				<p class="p5">3、负责店铺每季货品陈列、搭配展示及陈列指导；制定并实施视觉营销的原则及方案；</p>
+				<div class="pp6 hvr-radial-outa"><p class="p6"><a href="#">具体要求及薪酬 请点击</a></p></div>
+			</div>
+			<div class="z4"><img class="m1  wow bounceInRight" src="images/recruit/4.png" alt=""></div>
+		</div>
+	</div>
+	
+	
+	<div class="join6">
+		<div class="jz hvr-radial-outa">
+			<p class="p1"><a href="#">点击查看更多></a></p>
+		</div>
+	</div>
+	
+	<div class="box9">
+		<div class="jz clear">
+			<div class="shang clear">
+				<div class="left clear">
+						<div class="a1">
+							<ul>
+								<li><a href="index.html">返回首页</a></li>
+								<li><a href="#">返回顶部</a></li>
+							</ul>
+						</div>
+						<div class="a2">
+							<p class="p1">关于我们</p>
+							<ul>
+								<li><a href="aboutus.html" target="_blank">品牌介绍 </a></li>
+								<li><a href="aboutus.html" target="_blank">创始人介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">团队介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">发展历程  </a></li>
+							</ul>
+						</div>
+						<div class="a3">
+								<p class="p1">产品分类</p>
+							<ul>
+								<li><a href="product.html" target="_blank">婚纱系列  </a></li>
+								<li><a href="product.html" target="_blank">高端定制系列  </a></li>
+								<li><a href="product.html" target="_blank">礼服系列   </a></li>
+								<li><a href="product.html" target="_blank">饰品系列  </a></li>
+							</ul>
+						</div>
+						<div class="a4">
+							<p class="p1">资讯中心</p>
+							<ul>
+								<li><a href="new.html" target="_blank">内部资讯</a></li>
+								<li><a href="new.html" target="_blank">行业资讯</a></li>
+								<li><a href="new.html" target="_blank">常见问题</a></li>
+								<li><a href="new.html" target="_blank">选购常识</a></li>
+							</ul>
+						</div>
+						<div class="a5">
+							<p class="p1">定制预约</p>
+							<ul>
+								<li><a href="customize.html" target="_blank">定制介绍 </a></li>
+								<li><a href="customize.html" target="_blank">定制流程 </a></li>
+								<li><a href="customize.html" target="_blank">定制预约 </a></li>
+								<li><a href="customize.html" target="_blank">注意事项 </a></li>
+							</ul>
+						</div>
+			</div>
+			<div class="mid">
+				<p class="p7">客服电话：400-628-1176</p>
+				<p class="p7">客服邮箱：kefu@onlyqueen.com</p>
+				<p class="p7">服务时间：9:00 - 21:00</p>
+				<p class="p7">投诉电话：(027)65818622</p>
+				<p class="p7">投诉邮箱：onlyqueen@oq.com </p>
+			</div>
+			<div class="right1">
+				<img src="images/index/下载1.png" alt="">
+				<p>微信二维码 </p>
+			
+			</div>
+			<div class="right2">
+				<img src="images/index/下载 拷贝.png" alt="">
+				<p>手机APP二维码 </p>
+			
+			</div>
+			</div>
+			<div class="xia">
+			     <p class="p10">only queen唯一婚纱设计工作室版权所有</p>
+			</div>
+				
+		</div>
+	</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,505 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>品牌介绍</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/index/favicon.ico">
+	<link rel="stylesheet" href="css/hoverhhf.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/wow.min.js" language="javascript"></script>
+	<script src="js/jquery-3.2.1.min.js" language="javascript"></script>
+<style>
+	body{background:#2E2E2E}
+	
+	</style>
+	
+	
+	<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+		};
+   </script>
+	
+<script>
+	$(function(){
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
+		});
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).find(".down").stop(true).slideDown(300);
+		});
+		$(".box2 .jz .right li").mouseleave(function(){
+			$(this).find(".down").stop(true).slideUp(300);
+		});
+	});	
+</script>
+	
+<script>
+	$(function(){                                                     //当文档加载后读取以下函数
+		var xx=$(".box1").height()                                   //var为一个值，假设xx=class为box1的高度
+		$(window).scroll(function(){                                //当浏览器窗口滑动的时候执行以下动作
+		var yy=$(window).scrollTop();                               //var为一个值，假设yy等于浏览器窗口高度
+			if(yy>xx){$(".box2").addClass("hover1")}                  //如果yy>xx,那么给.box2添加一个class为hover1的属性值
+			else{$(".box2").removeClass("hover1")}                    //反之yy<xx，就给.box2移除class为hover1的属性	 
+		});
+	})
+</script>	
+	
+	
+	
+	
+	
+</head>
+
+<body>
+	<div class="box1">
+		<div class="jz clear">
+			<div class="left clear">
+				<img class="m1" src="images/login/座机.png" alt="">
+				<p class="p1">客服热线: 400-628-1176</p>
+			</div>
+			<div class="right clear">
+				<div class="a1 clear">
+					<img class="m2" src="images/login/YUI-微博.png"  alt="">
+					<p class="p2"><a href="#">关注新浪微博</a></p>
+				</div>
+				<div class="a2 clear">
+					<img class="m3" src="images/login/微信.png" alt="">
+					<p class="p3"><a href="#">关注微信</a></p>
+				</div>
+				<div class="a3">
+					<span class="span1"><a href="Login.html" target="_blank">登录 / </a></span>
+					<span class="span2"><a href="register.html" target="_blank">注册</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box2">
+		<div class="jz clear">
+			<div class="left">
+			<img src="images/login/logo(横）.png" alt=""></div>
+			<div class="right">
+			  <ul class="clear">
+				  <li class="hover"><a href="index.html" target="_blank">首页</a>
+					  <div class="down">
+						   <a href="#"><p>最新活动</p></a>
+						   <a href="#"><p>产品分类</p></a>
+						   <a href="#"><p>资讯中心</p></a>
+						   <a href="#"><p>案例展示</p></a>
+					  </div>
+				  </li>
+				  <li><a href="product.html"  target="_blank">产品分类</a>
+					    <div class="down down2">
+						   <a href="weddingdress.html" target="_blank"><p>婚纱系列</p></a>
+						   <a href="#"><p>礼服系列</p></a>
+						   <a href="#"><p>饰品系列</p></a>
+					  </div>
+				  </li>
+				  <li><a href="customize.html" target="_blank">定制预约</a>
+					    <div class="down down2">
+						   <a href="#"><p>服务流程</p></a>
+						   <a href="#"><p>定制预约</p></a>
+						   <a href="#"><p>精彩回顾</p></a>
+					  </div>
+				  </li>
+				  <li><a href="new.html" target="_blank">资讯中心</a>
+					    <div class="down down2">
+						   <a href="#"><p>内部资讯</p></a>
+						   <a href="#"><p>行业资讯</p></a>
+						   <a href="#"><p>常见问题</p></a>
+					    </div>
+				  </li>
+				  <li><a href="#">品牌介绍</a>
+					     <div class="down">
+						   <a href="#"><p>品牌介绍</p></a>
+						   <a href="#"><p>发展历程</p></a>
+						   <a href="#"><p>公司规模</p></a>
+						   <a href="#"><p>制作工艺</p></a>
+					     </div>
+				  </li>
+				  <li><a href="recruit.html" target="_blank">人员招聘</a>
+					   <div class="down">
+						   <a href="#"><p>婚纱设计师</p></a>
+						   <a href="#"><p>面料开发员</p></a>
+						   <a href="#"><p>策划专员</p></a>
+						   <a href="#"><p>陈列师</p></a>
+					     </div>
+				  </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	
+
+<div class="banner44">
+	<div class="box44 ">
+		<img src="images/aboutus/BANNER.jpg"  width="100%" alt="">
+	</div>
+	
+    <div class="jz">
+		  <div class="xf wow slideInLeft">
+			  <ul class="ul1">
+				   <li class="li1"><a href="#">婚纱系列</a>
+					   <ul class="ul2"> 
+						   <li><a href="#">A字型公主系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣系列</a></li>
+						   <li><a href="#">舞会型缎面系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">高端定制系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">气质女王类型</a></li>
+						   <li><a href="#">复古浪漫类型</a></li>
+						   <li><a href="#">幻境森林类型</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">礼服系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">仙气流苏吊带宴会服</a></li>
+						   <li><a href="#">气质亮片鱼尾晚礼服</a></li>
+						   <li><a href="#">简约绸缎舞会服</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">饰品系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">皇冠系列</a></li>
+						   <li><a href="#">头纱系列</a></li>
+						   <li><a href="#">首饰系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">热门推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">爆款推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">新品推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+			  </ul>
+		  </div>
+    </div>
+</div>	
+	
+	
+	<div class="about1">
+		<div class="shang "><img src="images/aboutus/标题-1.jpg" alt=""></div>
+		<div class="jz clear">
+			<div class="a1 clear ">
+				<div class="zz1  hvr-ripple-out  wow bounceInLeft">
+					<img class="m1" src="images/aboutus/图层 1.png" alt="">
+				
+				</div>
+				
+				<div class="text1 wow bounceInRight">
+					<p class="p1">一、工作室简介</p>
+					<p class="p2">ONLY QUEEN唯一婚纱设计工作室于2000年创立于上海陆家嘴，是中国领先的婚纱品牌，分别在北京，深圳和武汉开设精品店。ONLY QUEEN高级定制的婚纱原料来自法国意大利等知名供应商  年从业经验的老匠人，我们根据新娘的喜好和气质特点，力求在工艺和裁剪上做到无可挑剔，使婚纱与新娘完美融合，将寄托女人对爱情梦想的婚纱视为心灵对话与艺术灵感合二为一，实现女孩的专属的浪漫与梦幻的梦想。</p>
+				</div>
+			</div>
+			<div class="a2">
+				<div class="zz2 hvr-ripple-out wow bounceInRight">
+					<img class="m2" src="images/aboutus/苏珊.png" alt="">
+				
+				</div>
+				
+				<div class="text2 wow bounceInLeft">
+					<p class="p1">二、创始人介绍</p>
+					<p class="p2">苏珊（Susan )，四川成都人，因其母亲生于蜀绣世家，是蜀绣的传承人，苏珊从小就在 蜀绣的耳目渲染中长大，除了精于细腻立体的传统蜀绣，还擅于把手工卓绝的珠绣点缀技艺运用得气韵灵动，简约飘逸。苏珊首创将中国传统蜀绣技艺与西方高级材料完美融合，使东方雅致之美与国际时尚审美相结合，谱写独树一帜的风格。</p>
+				</div>
+			</div>
+			<div class="a3">
+				<div class="zz3 hvr-ripple-out wow bounceInLeft">
+					<img class="m3" src="images/aboutus/图层 2.png" alt="">
+				</div>
+				
+				<div class="text3 wow bounceInRight">
+					<p class="p1">三、品牌理念</p>
+					<p class="p2">女为已容，努力寻求更好的设计方法展现出新娘独一无二的美丽，打造女孩专属的浪漫婚纱梦。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="about2">
+		<img src="images/aboutus/标题-2.jpg" width="100%"  alt="">
+	
+	</div>
+	
+	<div class="about3">
+		<div class="jz">
+			<div class="left">
+				<p class="p1 wow zoomIn">品牌成立20周年，在深圳，北京，武汉开设婚纱精品店，业务范围也扩大到配饰珠宝等。</p>
+				<p class="p2 wow zoomIn">ONLY QUEEN首次将婚服中添加中国传统元素“刺绣”，赢得中国时尚圈的注目，该婚纱载登在中国知名时尚杂志《时尚芭莎》《瑞丽》中，获得中国时尚圈的认可。</p>
+				<p class="p3 wow zoomIn">品牌创始人苏珊毕业于北京服装学院服装设计专业并取得硕士学位，毕业后创立ONLY QUEEN品牌，ONLY QUEEN高级定制就此正式诞生。</p>
+			</div>
+			
+			
+			<div class="mid">
+				<img class="m2" src="images/aboutus/地址 (1).png" alt="">
+				<ul>
+					<li>2020年</li>
+					<li>2015年</li>
+					<li>2010年</li>
+					<li>2008年</li>
+					<li>2000年</li>
+				</ul>
+			</div>
+			<div class="right">
+				<p class="p4 wow zoomIn">ONLYQUEEN为多位明星与名媛量身定制嫁衣，从此“ONLY QUEEN”在中国一举成名，多次参加中国时装网举办的婚纱走秀。</p>
+				<p class="p5 wow zoomIn">ONLY QUEEN设计的婚纱风格唯美精致，符合中国大众传统审美，“ONLY QUEEN”在网络上好评如潮。</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="about4">
+		<div class="shang"><img src="images/aboutus/标题-3.jpg" alt=""></div>
+		<div class="jz">
+			<img class="wow flipInX" src="images/aboutus/地图.png" alt="">
+			<div class="xia">
+				<div class="top clear">
+					<div class="zuo clear">
+						<div class="a1 wow rotateInDownLeft">
+							<img class="m1 " src="images/aboutus/上海 (1).png" alt="">
+						    <p class="p1"> 总部-上海</p>
+						</div>
+						<div class="a2   wow rotateInDownLeft">
+							<p class="p2">地址：上海市静安区嘉里中心三座502号</p>
+							<p class="p3">联系电话：021-25378924</p>
+						</div>
+					</div>
+					<div class="you clear">
+						<div class="a1">
+							<img class="m1 wow rotateInDownRight" src="images/aboutus/北京 (2).png" alt="">
+						    <p class="p1">分店-北京</p>
+						</div>
+						<div class="a2  wow rotateInDownRight">
+							<p class="p2">地址：北京市东城区朝阳门大街190号</p>
+							<p class="p3">联系电话：010-84326578</p>
+						</div>
+					</div>
+				</div>
+				<div class="bot">
+					<div class="zuo clear">
+						<div class="a1 wow rotateInDownLeft">
+							<img class="m1" src="images/aboutus/深圳.png" alt="">
+						    <p class="p1"> 分店-深圳</p>
+						</div>
+						<div class="a2 wow rotateInDownLeft">
+							<p class="p2">地址：广东深圳市龙华区清湖公园210号</p>
+							<p class="p3">联系电话：0755-25378924</p>
+						</div>
+					</div>
+					<div class="you clear">
+						<div class="a1  wow rotateInDownRight">
+							<img class="m1" src="images/aboutus/武汉 (1).png" alt="">
+						    <p class="p1">分店-武汉</p>
+						</div>
+						<div class="a2  wow rotateInDownRight">
+							<p class="p2">地址：湖北省武汉市洪山区银泰1楼104号</p>
+							<p class="p3">联系电话：027-25378924</p>
+						</div>
+					</div>
+			  </div>	
+			</div>
+		</div>
+    </div>
+	
+	
+	<div class="about5">
+		<div class="shang"><img src="images/aboutus/标题11111.jpg" alt=""></div>
+		<div class="jz">
+			<video src="婚纱制作流程超清720P.mp4" controls width="1400" height="700" autoplay="autoplay"></video>
+		</div>
+	</div>
+
+	
+	
+	<div class="about6">
+		<div class="jz">
+		  <img class="mm1" src="images/aboutus/biaoti9.jpg" alt="">
+	    </div>
+	
+	</div>
+	
+<div class="HMm">
+<section class="pc-banner">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide swiper-slide-center none-effect">
+				<a href="#">
+					<img src="images/aboutus/1.jpg">
+				</a>
+				<div class="layer-mask"></div>
+			</div>
+			<div class="swiper-slide">
+				<a href="#">
+					<img src="images/aboutus/2.jpg">
+				</a>
+				<div class="layer-mask"></div>
+			</div>
+			<div class="swiper-slide">
+				<a href="#">
+					<img src="images/aboutus/3.jpg">
+				</a>
+				<div class="layer-mask"></div>
+			</div>
+				<div class="swiper-slide">
+				<a href="#">
+					<img src="images/aboutus/4.jpg">
+				</a>
+				<div class="layer-mask"></div>
+			</div>
+			<div class="swiper-slide">
+				<a href="#">
+					<img src="images/aboutus/5.jpg">
+				</a>
+				<div class="layer-mask"></div>
+			</div>
+		
+		</div>
+		<div class="button">
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</div>
+</section>
+	
+
+<script type="text/javascript" src="js/swiper1.min.js"></script>
+<script type="text/javascript">
+
+
+		window.onload = function() {
+			var swiper = new Swiper('.swiper-container',{
+				autoplay: false,
+				speed: 1000,
+				autoplayDisableOnInteraction: false,
+				loop: true,
+				centeredSlides: true,
+				slidesPerView: 2,
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				prevButton: '.swiper-button-prev',
+				nextButton: '.swiper-button-next',
+				onInit: function(swiper) {
+					swiper.slides[2].className = "swiper-slide swiper-slide-active";
+				},
+				breakpoints: {
+					668: {
+						slidesPerView: 1,
+					}
+				}
+			});
+		}
+
+
+	</script>
+	</div>
+
+<div style="text-align:center;color: aliceblue;margin:50px 0; font-size: 18px; 'MicroSoft YaHei';">
+<p>携手唐嫣，打造专属你的浪漫婚纱梦</p>
+</div>
+
+
+		
+	<div class="box9">
+		<div class="jz clear">
+			<div class="shang clear">
+				<div class="left clear">
+						<div class="a1">
+							<ul>
+								<li><a href="index.html" target="_blank">返回首页</a></li>
+								<li><a href="#">返回顶部</a></li>
+							</ul>
+						</div>
+						<div class="a2">
+							<p class="p1">关于我们</p>
+							<ul>
+								<li><a href="#">品牌介绍 </a></li>
+								<li><a href="#">创始人介绍  </a></li>
+								<li><a href="#">团队介绍  </a></li>
+								<li><a href="#">发展历程  </a></li>
+							</ul>
+						</div>
+						<div class="a3">
+								<p class="p1">产品分类</p>
+							<ul>
+								<li><a href="product.html" target="_blank">婚纱系列  </a></li>
+								<li><a href="product.html" target="_blank">高端定制系列  </a></li>
+								<li><a href="product.html" target="_blank">礼服系列   </a></li>
+								<li><a href="product.html" target="_blank">饰品系列  </a></li>
+							</ul>
+						</div>
+						<div class="a4">
+							<p class="p1">资讯中心</p>
+							<ul>
+								<li><a href="new.html" target="_blank">内部资讯</a></li>
+								<li><a href="new.html" target="_blank">行业资讯</a></li>
+								<li><a href="new.html" target="_blank">常见问题</a></li>
+								<li><a href="new.html" target="_blank">选购常识</a></li>
+							</ul>
+						</div>
+						<div class="a5">
+							<p class="p1">定制预约</p>
+							<ul>
+								<li><a href="customize.html" target="_blank">定制介绍 </a></li>
+								<li><a href="customize.html" target="_blank">定制流程 </a></li>
+								<li><a href="customize.html" target="_blank">定制预约 </a></li>
+								<li><a href="customize.html" target="_blank">注意事项 </a></li>
+							</ul>
+						</div>
+			</div>
+			<div class="mid">
+				<p class="p7">客服电话：400-628-1176</p>
+				<p class="p7">客服邮箱：kefu@onlyqueen.com</p>
+				<p class="p7">服务时间：9:00 - 21:00</p>
+				<p class="p7">投诉电话：(027)65818622</p>
+				<p class="p7">投诉邮箱：onlyqueen@oq.com </p>
+			</div>
+			<div class="right1">
+				<img src="images/index/下载1.png" alt="">
+				<p>微信二维码 </p>
+			
+			</div>
+			<div class="right2">
+				<img src="images/index/下载 拷贝.png" alt="">
+				<p>手机APP二维码 </p>
+			
+			</div>
+			</div>
+			<div class="xia">
+			     <p class="p10">only queen唯一婚纱设计工作室版权所有</p>
+			</div>
+				
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

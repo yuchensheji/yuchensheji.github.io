@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{padding: 0;margin: 0;}
+ui,ol,li{list-style: none}
+a{text-decoration: none }
+.clear{height: auto;overflow: hidden;zoom:1}
+.div1{width: 100%;
+    height:80px;
+    background: rgba(53,132,239,0.38);
+    margin: 0 auto;
+    opacity: 1;
+    position: fixed;
+    top: 0;z-index: 999}
+.div1 .daohang1{width: 1300px;height: 90px;margin: 0 auto;}
+.div1 .daohang1 img{float: left;margin-top: 10px;}
+.div1 .daohang1 ul{float: right;}
+.div1 .daohang1 ul li{float: left;margin: 0 30px;line-height: 80px;list-style: none;font-size: 18px;}
+.div1 .daohang1 ul span{line-height: 80px; margin-right: 50px}
+.div1 .daohang1 ul li a{text-decoration: none;color: #FFFFFF}
+.div1 .daohang1 ul li a:hover{font-size: 30px;}
+/*导航栏*/
+.div2{width: 100%;height: 1080px;;margin: 0 auto}
+.div2 .jz{width: 1920px;height: 1080px;margin: 0 auto;}
+.div2 .jz .jz1{width: 1920px;height: 1080px;margin: 0 auto;position: absolute;left: 0;right: 0;}
+.div2 .jz .box2{width: 1300px;height: 700px;margin: 0 auto;position: absolute;left: 0;right: 0;margin-top:350px;}
+.div2 .jz .box2 .jzwz1{width: 750px;height: 140px;margin: 0 auto;position: absolute;top: 50px;left: 300px;}
+.div2 .jz .box2 .jzwz1 .jzwz2{font-size: 58px;font-weight: 600;text-align: center;color: #FFFFFF;font-family: "方正粗圆简体"}
+.div2 .jz .box2 .jzwz1 p{font-size: 30px;font-weight: 600;text-align: center;color: #FFFFFF;margin-top: 15px;letter-spacing: 5px;}
+.div2 .jz .box2 .dh1{width: 90px;height: 280px;margin: 0 auto;position: absolute;background: rgba(53,132,239,0.6);top: 350px;left: 650px}
+.div2 .jz .box2 .dh1 .dh2{width: 40px;height: 250px;margin-top: 20px;margin-left: 25px}
+.div2 .jz .box2 .dh1 .dh2 p{font-size: 40px;text-align: center;color: #FFFFFF}
+.div2 .jz .box2 .dh1 .dh2 img{margin-left: 10px;margin-top: 6px;}
+/*第一幅图*/
+.div3{width: 100%;height: 300px;margin-top: 50px}
+.div3 .jz{width: 1300px;height: 300px;margin: 0 auto;}
+.div3 .jz .jz1{width: 400px;height: 300px;float: left;overflow: hidden}
+.div3 .jz .jz1:hover img{transform:scale(1.3)}
+.div3 .jz .jz2{width: 400px;height: 300px;float: left;margin-left:33px;overflow: hidden}
+.div3 .jz .jz2:hover img{transform:scale(1.3)}
+.div3 .jz .jz3{width: 400px;height: 300px;float: left;margin-left: 33px;overflow: hidden}
+.div3 .jz .jz3:hover img{transform:scale(1.3)}
+/*<!--三张风景图-->*/
+.div4{width: 100%;height: 150px;margin-top: 50px;}
+.div4 .bt1{width: 1300px;height:150px;margin: 0 auto;}
+.div4 .bt1 .hdtj{font-size: 34px;font-weight: 600;color: rgba(0,0,0,1.00);text-align: center;font-family: “微软雅黑”}
+.div4 .bt1 .bt2{width: 700px;height: 100px;margin: 0 auto;}
+.div4 .bt1 .bt2 p{font-size:16px;color:#9c9c9c;text-align: center;margin-top: 25px;line-height: 25px}
+
+.box13{width: 100%;height:70px;margin-top: 40px}
+.box13 .jz{width: 1300px;height: 70px;margin: 0 auto;;position: absolute;left: 0;right:0}
+.box13 .jz .wbk{width: 150px;height: 70px;margin: 0 auto;position: absolute;left: 0;right: 0}
+.box13 .jz .wbk2{position: absolute;left: 0px;right: 0;top: 15px}
+.box13 .jz .wbk3{position: absolute;left: 40px;right: 0;top: 28px}
+.box13 .jz .wbk3 a{font-size:18px;color: rgba(0,0,0,1.00)}
+/*<!--  更多酒店-->*/
+.div5{width: 100%;height: 300px;margin-top: 50px}
+.div5 .jz{width: 1300px;height: 350px;margin: 0 auto;}
+.div5 .jz .dt{width: 300px;height: 300px;float: left;}
+.div5 .jz .dt p{font-size: 24px;color: #237ea6;text-align: center;margin-top: 10px}
+.div5 .jz .jd{width: 300px;height: 300px;float: left;margin-left: 180px;}
+.div5 .jz .jd .jd2{ width:218px;height: 248px ;margin:0 auto;}
+.div5 .jz .jd p{font-size: 24px;color: #237ea6;text-align: center;margin-top: 10px}
+.div5 .jz .yz{width: 300px;height: 300px;float: left;margin-left: 200px;}
+.div5 .jz .yz .yz2{width: 297px;height: 248px;margin:0 auto}
+.div5 .jz .yz p{font-size: 24px;color: #237ea6;text-align: center;margin-top: 10px}
+/*<!--三张图标-->*/
+.div6{width: 100%;height: 400px;margin-top: 150px}
+.div6 .jz{width: 1300px;height: 400px;margin: 0 auto}
+.div6 .yt{width: 400px;height: 400px;float: left}
+.div6 .zt{width:880px;height:400px;float:left;margin-left:20px;}
+.div6 .jz .zt .gywm{font-size: 48px;font-weight: 600; text-align: center;}
+.div6 .jz .zt .gywm1{font-size: 20px;text-indent: 2em;line-height: 36px;text-align:justify;margin-top:60px}
+/*<!-- 关于我们-->*/
+.box12{width: 100%;height:70px;margin-top: 30px}
+.box12 .jz{width: 1300px;height: 70px;margin: 0 auto;;position: absolute;left: 0;right:0}
+.box12 .jz .wbk{width: 150px;height: 70px;margin: 0 auto;position: absolute;left: 0;right: 0}
+.box12 .jz .wbk2{position: absolute;left: 0px;right: 0;top: 15px}
+.box12 .jz .wbk3{position: absolute;left: 40px;right: 0;top: 28px}
+.box12 .jz .wbk3 a{font-size:18px;color: rgba(0,0,0,1.00)}
+
+
+.box14{width: 100%;height:364px;margin-top: 30px}
+.box14 .jz{width: 1920px;height: 364px;margin: 0 auto;}
+.box14 .jz .dibu1{width: 1920px;height: 364px;margin: 0 auto;position: absolute;left: 0;right: 0}
+.box14 .jz .dibu2{width: 1300px;height: 364px;margin: 0 auto;position: absolute;left: 0;right: 0;}
+.box14 .jz .dibu2 .dibuwz1{position: absolute;width: 150px;height: 250px;margin-top: 50px;}
+.box14 .jz .dibu2 .dibuwz1 ui li a{font-size: 14px;color:#FFFFFF;line-height: 40px;}
+.box14 .jz .dibu2 .dibuwz2{position: absolute;width: 150px;height: 250px;margin-top: 50px;left: 300px}
+.box14 .jz .dibu2 .dibuwz2 ui li a{font-size: 14px;color:#FFFFFF;line-height: 40px;}
+.box14 .jz .dibu2 .dibuwz3{position: absolute;width: 150px;height: 250px;margin-top: 50px;left: 550px}
+.box14 .jz .dibu2 .dibuwz3 ui li a{font-size: 14px;color:#FFFFFF;line-height: 40px;}
+.box14 .jz .dibu2 .dibuwz4{position: absolute;width: 800px;height: 30px;margin-top: 50px;left: 300px;margin-top: 325px}
+.box14 .jz .dibu2 .dibuwz4 p{font-size: 14px;color:#FFFFFF;}
+.box14 .jz .dibu2 .dibutp1{position: absolute;width: 100px;height: 100px;margin-top: 50px;left: 950px;}
+.box14 .jz .dibu2 .dibutp2{position: absolute;width: 100px;height: 100px;margin-top: 50px;left: 1200px;}
+.box14 .jz .dibu2 .dibuwz5{position: absolute;width: 70px;height: 30px;margin-top: 155px;left: 970px}
+.box14 .jz .dibu2 .dibuwz5 a{font-size: 14px;color:#FFFFFF;}
+.box14 .jz .dibu2 .dibuwz6{position: absolute;width: 80px;height: 30px;margin-top: 155px;left: 1215px}
+.box14 .jz .dibu2 .dibuwz6 a{font-size: 14px;color:#FFFFFF;}
+.box14 .jz .dibu2 .dibuwz7{position: absolute;width: 250px;height: 100px;margin-top: 210px;left: 1000px}
+.box14 .jz .dibu2 .dibuwz7 ui li p{font-size: 14px;color:#FFFFFF;line-height: 30px;}
+
+
+
+
+
+
+
+

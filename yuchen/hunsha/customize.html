@@ -1,0 +1,555 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>高端定制</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/index/favicon.ico">
+	<link rel="stylesheet" href="css/hoverhhf.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/wow.min.js" language="javascript"></script>
+	<script src="js/jquery-3.2.1.min.js" language="javascript"></script>
+	
+	 <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery-1.10.2.min.js" language="javascript"></script>
+    <script src="js/swiper.min.js" language="javascript"></script>
+	<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+		};
+   </script>
+	
+<script>
+	$(function(){
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
+		});
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).find(".down").stop(true).slideDown(300);
+		});
+		$(".box2 .jz .right li").mouseleave(function(){
+			$(this).find(".down").stop(true).slideUp(300);
+		});
+	});	
+</script>
+	
+<script>
+	$(function(){                                                     //当文档加载后读取以下函数
+		var xx=$(".box1").height()                                   //var为一个值，假设xx=class为box1的高度
+		$(window).scroll(function(){                                //当浏览器窗口滑动的时候执行以下动作
+		var yy=$(window).scrollTop();                               //var为一个值，假设yy等于浏览器窗口高度
+			if(yy>xx){$(".box2").addClass("hover1")}                  //如果yy>xx,那么给.box2添加一个class为hover1的属性值
+			else{$(".box2").removeClass("hover1")}                    //反之yy<xx，就给.box2移除class为hover1的属性	 
+		});
+	})
+</script>
+	
+  <style>
+    html, body {position: relative;height: 100%;}
+    body {background: #eee;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;margin: 0;padding: 0;}
+    .swiper-container {width: 1200px;height: 407px;}
+    .swiper-slide {text-align: center;font-size: 18px;width: 262px;height: 407px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;}
+	  .swiper-slide img{width:262px;height:407px;}
+	   .swiper-container{
+    --swiper-theme-color: #FFBE00;/* 设置Swiper风格 */
+    --swiper-navigation-color: #FFBE00;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 50px;/* 设置按钮大小 */
+	z-index: 0
+  }
+	  
+	  
+ 	</style>
+</head>
+	
+	
+
+<body>
+	<div class="box1">
+		<div class="jz clear">
+			<div class="left clear">
+				<img class="m1" src="images/login/座机.png" alt="">
+				<p class="p1">客服热线: 400-628-1176</p>
+			</div>
+			<div class="right clear">
+				<div class="a1 clear">
+					<img class="m2" src="images/login/YUI-微博.png"  alt="">
+					<p class="p2"><a href="#">关注新浪微博</a></p>
+				</div>
+				<div class="a2 clear">
+					<img class="m3" src="images/login/微信.png" alt="">
+					<p class="p3"><a href="#">关注微信</a></p>
+				</div>
+				<div class="a3">
+					<span class="span1"><a href="Login.html" target="_blank">登录 / </a></span>
+					<span class="span2"><a href="register.html" target="_blank">注册</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box2">
+		<div class="jz clear">
+			<div class="left">
+			<img src="images/login/logo(横）.png" alt=""></div>
+			<div class="right">
+			  <ul class="clear">
+				  <li class="hover"><a href="index.html" target="_blank">首页</a>
+					  <div class="down">
+						   <a href="#"><p>最新活动</p></a>
+						   <a href="#"><p>产品分类</p></a>
+						   <a href="#"><p>资讯中心</p></a>
+						   <a href="#"><p>案例展示</p></a>
+					  </div>
+				  </li>
+				  <li><a href="product.html" target="_blank">产品分类</a>
+					   <div class="down down2">
+						   <a href="weddingdress.html" target="_blank"><p>婚纱系列</p></a>
+						   <a href="#"><p>礼服系列</p></a>
+						   <a href="#"><p>饰品系列</p></a>
+					  </div>
+				  </li>
+				  <li><a href="#">定制预约</a>
+					  <div class="down down2">
+						   <a href="#"><p>服务流程</p></a>
+						   <a href="#"><p>定制预约</p></a>
+						   <a href="#"><p>精彩回顾</p></a>
+					  </div>
+				  </li>
+				  <li><a href="new.html" target="_blank">资讯中心</a>
+					    <div class="down down2">
+						   <a href="#"><p>内部资讯</p></a>
+						   <a href="#"><p>行业资讯</p></a>
+						   <a href="#"><p>常见问题</p></a>
+					    </div>
+				  </li>
+				  <li><a href="aboutus.html" target="_blank">品牌介绍</a>
+					   <div class="down">
+						   <a href="#"><p>品牌介绍</p></a>
+						   <a href="#"><p>发展历程</p></a>
+						   <a href="#"><p>公司规模</p></a>
+						   <a href="#"><p>制作工艺</p></a>
+					     </div>
+				  </li>
+				  <li><a href="recruit.html" target="_blank">人员招聘</a>
+					    <div class="down">
+						   <a href="#"><p>婚纱设计师</p></a>
+						   <a href="#"><p>面料开发员</p></a>
+						   <a href="#"><p>策划专员</p></a>
+						   <a href="#"><p>陈列师</p></a>
+					     </div>
+				  </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+<div class="banner43">
+	<div class="box43">
+		<img src="images/customize/未标题-1.jpg" width="100%"  alt="">
+	</div>
+	 <div class="jz">
+		  <div class="xf wow slideInLeft">
+			  <ul class="ul1">
+				   <li class="li1"><a href="#">婚纱系列</a>
+					   <ul class="ul2"> 
+						   <li><a href="#">A字型公主系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣系列</a></li>
+						   <li><a href="#">舞会型缎面系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">高端定制系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">气质女王类型</a></li>
+						   <li><a href="#">复古浪漫类型</a></li>
+						   <li><a href="#">幻境森林类型</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">礼服系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">仙气流苏吊带宴会服</a></li>
+						   <li><a href="#">气质亮片鱼尾晚礼服</a></li>
+						   <li><a href="#">简约绸缎舞会服</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">饰品系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">皇冠系列</a></li>
+						   <li><a href="#">头纱系列</a></li>
+						   <li><a href="#">首饰系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">热门推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">爆款推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">新品推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+			  </ul>
+		  </div>
+    </div>
+</div>
+	
+	
+	
+	
+	
+	
+	<div class="cust1">
+		<div class="shang"><img src="images/customize/标题1.jpg" alt=""></div>
+		<div class="xia">
+			<p class="p1 wow rotateInDownRight">ONLY queen高端性质代表了以一种精湛技艺与制作，需要耗时几十甚至上百小时才能完成一套婚纱、礼服的制作，设计师的精妙设计与纯粹的手工制作便是它存在的价值与意义，现在可以在已开通体验店的城市提供婚纱礼服的高端定制的服务，您可在线上预约后，亲自来到体验店，我们将有专业的服务人员全程跟踪，为您提供一对一的专业服务。</p>
+			<div class="zz1 hvr-pulse-grow">
+				<img  class="m1 wow rollIn" src="images/customize/FLEURETTE-1.png" alt="">
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="cust2">
+		<div class="shang"><img src="images/customize/标题2.jpg" alt=""></div>
+		<div class="xia clear">
+			<div class="a1 wow zoomIn">
+				<img class="m1" src="images/customize/官网.png" alt="">
+				<p class="p2">定制预约</p>
+				<p class="p3">官网提交新娘预约，确认定制需支付一万元人民币</p>
+			</div>
+			<div class="a2 wow zoomIn">
+				<img class="m1" src="images/customize/沟通.png" alt="">
+				<p class="p2">一对一沟通</p>
+				<p class="p3">设计师将一对一构图，解读您的想法和要求，为您速写初稿和构思草图</p>
+			</div>
+			<div class="a3 wow zoomIn">
+				<img class="m1" src="images/customize/测量.png" alt="">
+				<p class="p2">量体</p>
+				<p class="p3">从颈围肩宽到腰围胸围和鞋跟高，客服会为您进行复杂但精准的量体</p>
+			</div>
+			<div class="a4 wow zoomIn">
+				<img class="m1" src="images/customize/面料管理.png" alt="">
+				<p class="p2">面料辅料选择</p>
+				<p class="p3">在手工工坊有着千余种面料和珠料，可以满足您不同的设计要求</p>
+			</div>
+			<div class="a5 wow zoomIn">
+				<img class="m1" src="images/customize/试穿报告-01.png" alt="">
+				<p class="p2">试穿</p>
+				<p class="p3">样衣完成后第一次试穿，试穿版型无可挑剔后再决定排花和钉珠的细节</p>
+			</div>
+			<div class="a6 wow zoomIn">
+				<img class="m1" src="images/customize/调整 (1).png" alt="">
+				<p class="p2">成品调整</p>
+				<p class="p3">再试穿结束后，面料珠料裁剪粗缝等会做最终的确认和调整，直至整个定制完成</p>
+			</div>
+			<img class="j1 wow zoomIn" src="images/customize/长箭头 拷贝 4.png" alt="">
+			<img class="j2 wow zoomIn" src="images/customize/长箭头 拷贝 4.png" alt="">
+			<img class="j3 wow zoomIn" src="images/customize/长箭头 拷贝 4.png" alt="">
+			<img class="j4 wow zoomIn" src="images/customize/长箭头 拷贝 4.png" alt="">
+			<img class="j5 wow zoomIn" src="images/customize/长箭头 拷贝 4.png" alt="">
+		</div>
+	</div>
+	
+	<div class="cust3">
+		<div class="shang"><img src="images/customize/标题3.jpg" alt=""></div>
+		<p class="p1">全国已有<span class="span1">2563</span>人享受量身定制服务</p>
+		<div class="xia clear">
+			<div class="left">
+				<div class="b1 hvr-shutter-out-horizontal">
+				<p class="p2">在线预约</p>
+				</div>
+				
+				<table width="520" border="1">
+				  <tbody>
+					<tr>
+					  <td width="190" height="64" align="center">姓名</td>
+					  <td colspan="2">&nbsp;<input type="text" placeholder="例如：王小姐"></td>
+					</tr>
+					<tr>
+					  <td height="64" align="center">电话</td>
+					  <td height="64" colspan="2">&nbsp;<input type="text"  placeholder="请输入联系电话"></td>
+					</tr>
+					<tr>
+					  <td height="64" align="center">地址</td>
+					  <td height="64" colspan="2">&nbsp;<input type="text"  placeholder="请输入您的地址" ></td>
+					</tr>
+					<tr>
+					  <td height="64" align="center">时间</td>
+					  <td height="64">&nbsp;
+						  <select>
+							  <option value="">1月</option>
+							  <option value="">2月</option>
+							  <option value="">3月</option>
+							  <option value="">4月</option>
+							  <option value="">5月</option>
+							  <option value="">6月</option>
+							  <option value="">7月</option>
+							  <option value="">8月</option>
+							  <option value="">9月</option>
+							  <option value="">10月</option>
+							  <option value="">11月</option>
+							  <option value="">12月</option>
+						  </select>
+						 <select>
+							  <option value="">1日</option>
+							  <option value="">2日</option>
+							  <option value="">3日</option>
+							  <option value="">4日</option>
+							  <option value="">5日</option>
+							  <option value="">6日</option>
+							  <option value="">7日</option>
+							  <option value="">8日</option>
+							  <option value="">9日</option>
+							  <option value="">10日</option>
+							  <option value="">11日</option>
+							  <option value="">12日</option>
+							 <option value="">13日</option>
+							 <option value="">14日</option>
+							 <option value="">15日</option>
+							 <option value="">16日</option>
+							 <option value="">17日</option>
+							 <option value="">18日</option>
+							 <option value="">19日</option>
+							 <option value="">20日</option>
+							 <option value="">21日</option>
+							 <option value="">22日</option>
+							 <option value="">23日</option>
+							 <option value="">24日</option>
+							 <option value="">25日</option>
+							 <option value="">26日</option>
+							 <option value="">27日</option>
+							 <option value="">28日</option>
+							 <option value="">29日</option>
+							 <option value="">30日</option>
+							 <option value="">31日</option>
+						 </select>
+						</td>
+					  <td height="64">&nbsp;
+						 <select>
+							  <option value="">9：00-11：00</option>
+							  <option value="">11：00-13：00</option>
+							  <option value="">13：00-15：00</option>
+							  <option value="">15：00-17：00</option>
+							  <option value="">17：00-19：00</option>
+							  <option value="">19：00-21：00</option>
+						  </select>
+						
+						</td>
+					</tr>
+					<tr>
+					  <td height="64" align="center">备注</td>
+					  <td height="64" colspan="2">&nbsp;<input type="text" placeholder="请填写您的喜好或婚期等"></td>
+					</tr>
+					<tr>
+					  <td class="td1" height="64" colspan="3">&nbsp;<input class="p4" type="submit" value="立即预约"></td>
+					</tr>
+				  </tbody>
+				</table>
+			<img  class="m1" src="images/customize/姓名.png" alt="">
+			<img class="m2" src="images/customize/电 话.png" alt="">
+			<img class="m3" src="images/customize/地址.png" alt="">
+			<img class="m4" src="images/customize/预约.png" alt="">
+			<img class="m5" src="images/customize/备注.png" alt="">
+			</div>
+			<div class="right">
+				<div class="b1 hvr-shutter-out-horizontal">
+				<p class="p2">微信预约</p>
+				</div>
+				<img class="m6" src="images/customize/下载 拷贝 2.png" alt="">
+				<p class="p3">扫一扫立即预约</p>
+				<p class="p4">预约电话：400-628-1176</p>
+				<p class="p5">服务时间：9:00-21:00</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="cust4">
+		<div class="shang"><img src="images/customize/标题4.jpg" alt=""></div>
+	</div>
+	
+   <div class="cut5">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+				<div class="swiper-slide">
+						<img src="images/customize/CANELLE-1.png" alt="">
+						<div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			     </div>
+				 <div class="swiper-slide">
+						<img src="images/customize/CREPONNE-1 (1).png" alt="">
+				        <div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			     </div>
+				<div class="swiper-slide">
+					     <img src="images/customize/DELICE-1.png" alt="">
+				         <div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			
+			    </div>
+				<div class="swiper-slide">
+					      <img src="images/customize/ENTREMET-1-1.png" alt="">
+				          <div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			
+			    </div>
+			
+            </div>
+        <!-- Add Pagination -->
+          <div class="swiper-button-prev"></div>
+    	  <div class="swiper-button-next"></div>
+       </div>
+	</div>
+	
+	
+<div class="cut6">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="images/customize/SUCCES-1.png" alt="">
+					<div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			    </div>
+				<div class="swiper-slide">
+					 <img src="images/customize/MERVEILLEUSE-1-1.png" alt="">
+				     <div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			    </div>
+				<div class="swiper-slide">
+					<img src="images/customize/MUSCADE-1.png" alt="">
+					<div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			    </div>
+				<div class="swiper-slide">
+					<img src="images/customize/VERVEINE-1 (1).png" alt="">
+				     <div class="zz1"><p><a href="#">点击查看更多</a></p></div>
+			    </div>
+         </div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-prev"></div>
+    	<div class="swiper-button-next"></div>
+    </div>
+</div>
+	
+	
+	<div class="box9">
+		<div class="jz clear">
+			<div class="shang clear">
+				<div class="left clear">
+						<div class="a1">
+							<ul>
+								<li><a href="index.html" target="_blank">返回首页</a></li>
+								<li><a href="#">返回顶部</a></li>
+							</ul>
+						</div>
+						<div class="a2">
+							<p class="p1">关于我们</p>
+							<ul>
+								<li><a href="aboutus.html" target="_blank">品牌介绍 </a></li>
+								<li><a href="aboutus.html" target="_blank">创始人介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">团队介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">发展历程  </a></li>
+							</ul>
+						</div>
+						<div class="a3">
+								<p class="p1">产品分类</p>
+							<ul>
+								<li><a href="product.html"  target="_blank">婚纱系列  </a></li>
+								<li><a href="product.html"  target="_blank">高端定制系列  </a></li>
+								<li><a href="product.html"  target="_blank">礼服系列   </a></li>
+								<li><a href="product.html"  target="_blank">饰品系列  </a></li>
+							</ul>
+						</div>
+						<div class="a4">
+							<p class="p1">资讯中心</p>
+							<ul>
+								<li><a href="new.html" target="_blank">内部资讯</a></li>
+								<li><a href="new.html" target="_blank">行业资讯</a></li>
+								<li><a href="new.html" target="_blank">常见问题</a></li>
+								<li><a href="new.html" target="_blank">选购常识</a></li>
+							</ul>
+						</div>
+						<div class="a5">
+							<p class="p1">定制预约</p>
+							<ul>
+								<li><a href="#">定制介绍 </a></li>
+								<li><a href="#">定制流程 </a></li>
+								<li><a href="#">定制预约 </a></li>
+								<li><a href="#">注意事项 </a></li>
+							</ul>
+						</div>
+			</div>
+			<div class="mid">
+				<p class="p7">客服电话：400-628-1176</p>
+				<p class="p7">客服邮箱：kefu@onlyqueen.com</p>
+				<p class="p7">服务时间：9:00 - 21:00</p>
+				<p class="p7">投诉电话：(027)65818622</p>
+				<p class="p7">投诉邮箱：onlyqueen@oq.com </p>
+			</div>
+			<div class="right1">
+				<img src="images/index/下载1.png" alt="">
+				<p>微信二维码 </p>
+			
+			</div>
+			<div class="right2">
+				<img src="images/index/下载 拷贝.png" alt="">
+				<p>手机APP二维码 </p>
+			
+			</div>
+			</div>
+			<div class="xia">
+			     <p class="p10">only queen唯一婚纱设计工作室版权所有</p>
+			</div>	
+		</div>
+	</div>
+	
+	
+	
+ <script>
+    	var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView:4,
+			autoplay:true,//自动播放、无缝滚动调整transition-timing-function参数为linear
+			speed:2000,
+			loop : true,
+			slidesPerGroup : 1,//无缝滚动特有参数
+			freeMode:true,//无缝滚动特有参数
+    	  autoplayDisableOnInteraction:false,
+			preloadImages: true,
+			updateOnImagesReady: true,
+        paginationClickable: true,
+			nextButton: '.swiper-button-next',
+    	  prevButton: '.swiper-button-prev',
+        spaceBetween:30},);
+		
+    </script>
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{padding: 0;margin: 0;}
+ui,ol,li{list-style: none}
+a{text-decoration: none }
+.clear{height: auto;overflow: hidden;zoom:1}
+.div1{width: 100%;
+    height:80px;
+    background: rgba(53,132,239,0.38);
+    margin: 0 auto;
+    opacity: 1;
+    position: fixed;
+    top: 0;z-index: 999}
+.div1 .daohang1{width: 1300px;height: 90px;margin: 0 auto;}
+.div1 .daohang1 img{float: left;margin-top: 10px;}
+.div1 .daohang1 ul{float: right;}
+.div1 .daohang1 ul li{float: left;margin: 0 30px;line-height: 80px;list-style: none;font-size: 18px;}
+.div1 .daohang1 ul span{line-height: 80px; margin-right: 50px}
+.div1 .daohang1 ul li a{text-decoration: none;color: #FFFFFF}
+.div1 .daohang1 ul li a:hover{font-size: 30px;}
+/*导航栏*/
+.div2{width: 100%;height: 1080px;;margin: 0 auto}
+.div2 .jz{width: 1920px;height: 1080px;margin: 0 auto;}
+.div2 .jz .jz1{width: 1920px;height: 1080px;margin: 0 auto;position: absolute;left: 0;right: 0;}
+.div2 .jz .box2{width: 1300px;height: 700px;margin: 0 auto;position: absolute;left: 0;right: 0;margin-top:300px;}
+.div2 .jz .box2 .jzwz1{width: 500px;height: 120px;margin: 0 auto;position: absolute;top: 50px;left: 440px}
+.div2 .jz .box2 .jzwz1 .jzwz2{font-size: 48px;font-weight: 600;text-align: center;color: #FFFFFF;font-family: "方正粗圆简体"}
+.div2 .jz .box2 .jzwz1 p{font-size: 30px;font-weight: 600;text-align: center;color: #FFFFFF;margin-top: 15px;letter-spacing: 5px;}
+.div2 .jz .box2 .dh1{width: 90px;height: 280px;margin: 0 auto;position: absolute;background: rgba(53,132,239,0.6);top: 400px;left: 650px}
+.div2 .jz .box2 .dh1 .dh2{width: 40px;height: 250px;margin-top: 20px;margin-left: 25px}
+.div2 .jz .box2 .dh1 .dh2 p{font-size: 40px;text-align: center;color: #FFFFFF}
+.div2 .jz .box2 .dh1 .dh2 img{margin-left: 10px;margin-top: 6px;}
+/*第一幅图*/
+.div3{width: 100%;height: 830px;margin-top: 50px;}

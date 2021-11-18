@@ -1,0 +1,484 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>资讯中心</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/hoverhhf.css">
+    <link rel="shortcut icon" href="images/index/favicon.ico">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/wow.min.js" language="javascript"></script>
+	<script src="js/jquery-3.2.1.min.js" language="javascript"></script>
+	 <link rel="stylesheet" href="css/swiper.min.css">
+	
+	
+	
+	<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+		};
+   </script>
+	
+	<script>
+	$(function(){
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
+		});
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).find(".down").stop(true).slideDown(300);
+		});
+		$(".box2 .jz .right li").mouseleave(function(){
+			$(this).find(".down").stop(true).slideUp(300);
+		});
+	});	
+</script>
+	
+<script>
+	$(function(){                                                     //当文档加载后读取以下函数
+		var xx=$(".box1").height()                                   //var为一个值，假设xx=class为box1的高度
+		$(window).scroll(function(){                                //当浏览器窗口滑动的时候执行以下动作
+		var yy=$(window).scrollTop();                               //var为一个值，假设yy等于浏览器窗口高度
+			if(yy>xx){$(".box2").addClass("hover1")}                  //如果yy>xx,那么给.box2添加一个class为hover1的属性值
+			else{$(".box2").removeClass("hover1")}                    //反之yy<xx，就给.box2移除class为hover1的属性	 
+		});
+	})
+</script>
+	
+	<style>
+	  .new1 .jz .bot .left .swiper-container .swiper-wrapper{float: left}
+	  .new1 .jz .bot .left .swiper-container .swiper-wrapper .swiper-slide img{width: 455px;display-block;margin: 0 auto;}
+      .new1 .jz .bot .left .swiper-container {
+      width: 455px;
+      height: 610px;
+	margin: 0 auto;margin-top:20px;
+    }
+     .new1 .jz .bot .left .swiper-container .swiper-wrapper .swiper-slide .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+		.swiper-button-next{color: rgba(255,202,0,1.00)}
+		.swiper-button-prev{color: rgba(255,202,0,1.00)}
+  </style>
+	
+	
+	
+	
+	
+	
+	
+</head>
+
+<body>
+	<div class="box1">
+		<div class="jz clear">
+			<div class="left clear">
+				<img class="m1" src="images/login/座机.png" alt="">
+				<p class="p1">客服热线: 400-628-1176</p>
+			</div>
+			<div class="right clear">
+				<div class="a1 clear">
+					<img class="m2" src="images/login/YUI-微博.png"  alt="">
+					<p class="p2"><a href="#">关注新浪微博</a></p>
+				</div>
+				<div class="a2 clear">
+					<img class="m3" src="images/login/微信.png" alt="">
+					<p class="p3"><a href="#">关注微信</a></p>
+				</div>
+				<div class="a3">
+					<span class="span1"><a href="Login.html" target="_blank">登录 / </a></span>
+					<span class="span2"><a href="register.html" target="_blank">注册</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box2">
+		<div class="jz clear">
+			<div class="left">
+			<img src="images/login/logo(横）.png" alt=""></div>
+			<div class="right">
+			  <ul>
+				  <li class="hover"><a href="index.html" target="_blank">首页</a>
+					  <div class="down">
+						   <a href="#"><p>最新活动</p></a>
+						   <a href="#"><p>产品分类</p></a>
+						   <a href="#"><p>资讯中心</p></a>
+						   <a href="#"><p>案例展示</p></a>
+					  </div>
+				  </li>
+				  <li><a href="product.html" target="_blank">产品分类</a>
+					   <div class="down down2">
+						   <a href="weddingdress.html" target="_blank"><p>婚纱系列</p></a>
+						   <a href="#"><p>礼服系列</p></a>
+						   <a href="#"><p>饰品系列</p></a>
+					  </div>
+				  </li>
+				  <li><a href="customize.html" target="_blank">定制预约</a>
+					    <div class="down down2">
+						   <a href="#"><p>服务流程</p></a>
+						   <a href="#"><p>定制预约</p></a>
+						   <a href="#"><p>精彩回顾</p></a>
+					  </div>
+				  </li>
+				  <li><a href="#">资讯中心</a>
+					    <div class="down down2">
+						   <a href="#"><p>内部资讯</p></a>
+						   <a href="#"><p>行业资讯</p></a>
+						   <a href="#"><p>常见问题</p></a>
+					    </div>
+				  </li>
+				  <li><a href="aboutus.html" target="_blank">品牌介绍</a>
+					     <div class="down">
+						   <a href="#"><p>品牌介绍</p></a>
+						   <a href="#"><p>发展历程</p></a>
+						   <a href="#"><p>公司规模</p></a>
+						   <a href="#"><p>制作工艺</p></a>
+					     </div>
+				  </li>
+				  <li><a href="recruit.html" target="_blank">人员招聘</a>
+					  <div class="down">
+						   <a href="#"><p>婚纱设计师</p></a>
+						   <a href="#"><p>面料开发员</p></a>
+						   <a href="#"><p>策划专员</p></a>
+						   <a href="#"><p>陈列师</p></a>
+					  </div>
+				  </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="banner46">
+	    <div class="box46">
+		     <img src="images/new/banner.jpg" width="100%" alt="">
+		</div>
+	    <div class="jz">
+		  <div class="xf wow slideInLeft">
+			  <ul class="ul1">
+				   <li class="li1"><a href="#">婚纱系列</a>
+					   <ul class="ul2"> 
+						   <li><a href="#">A字型公主系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣系列</a></li>
+						   <li><a href="#">舞会型缎面系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">高端定制系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">气质女王类型</a></li>
+						   <li><a href="#">复古浪漫类型</a></li>
+						   <li><a href="#">幻境森林类型</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">礼服系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">仙气流苏吊带宴会服</a></li>
+						   <li><a href="#">气质亮片鱼尾晚礼服</a></li>
+						   <li><a href="#">简约绸缎舞会服</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">饰品系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">皇冠系列</a></li>
+						   <li><a href="#">头纱系列</a></li>
+						   <li><a href="#">首饰系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">热门推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">爆款推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">新品推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+			  </ul>
+		  </div>
+		</div>
+   </div>
+	
+	
+	
+	
+	
+    <div class="new1">
+		<div class="jz">
+			<div class="top">
+			     <img src="images/new/标题1.jpg" alt="">
+			</div>
+			<div class="bot clear">
+				<div class="left wow bounceInLeft">
+					
+					<div class="swiper-container">
+							<div class="swiper-wrapper">
+							  <div class="swiper-slide"><img src="images/index/图层 12.png" alt=""> </div>
+							  <div class="swiper-slide"><img src="images/index/图层121.png" alt=""></div>
+							  <div class="swiper-slide"><img src="images/index/图层122.png" alt=""></div>
+							  <div class="swiper-slide"><img src="images/index/图层123.png" alt=""></div>
+
+							</div>
+							<!-- Add Arrows -->
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						  </div>
+					
+				</div>
+				<div class="right wow bounceInRight">
+					<div class="a1 clear">
+						<img class="m1" src="images/index/椭圆 2 拷贝.png" alt="">
+						<div class="aa1">
+							<p class="p1"><a href="#">【腾讯新闻】ONLY QUEEN婚纱高端定制系列首次亮相巴黎时装周</a></p>
+							 <div class="aa2 clear">
+							    <img src="images/index/时间 历史记录 计时 钟表 线性.png" alt="">
+							     <p class="p2">2020年8月20日 12:30 </p>
+							 </div>
+							 <p class="p3">8月初，设计师品牌ONLY QUEEN于四季花园国际宴会中心发布2020-2021春夏婚纱礼服系列，灵感源自英国皇家赛马会Royal Ascot.设计师苏珊......</p>
+							<p class="p4"><a href="#">MORE>></a></p>
+						</div>
+					</div>
+					<div class="a2">
+						<img class="m1" src="images/index/椭圆 2 拷贝.png" alt="">
+						<div class="aa1">
+							<p class="p1"><a href="#">【中国经济网】设计师苏珊荣获"光华龙腾奖中国设计业十大杰出青年"</a></p>
+							 <div class="aa2 clear">
+							    <img src="images/index/时间 历史记录 计时 钟表 线性.png" alt="">
+							     <p class="p2">2020年7月13日 9:30 </p>
+							</div>
+							<p class="p3">中国经济网天津7月11日讯（周永亮）7月10日，2020（第十五届）“光华龙腾奖”颁奖盛典在天津华侨城欢乐谷演播大厅隆重举办，......</p>
+							<p class="p4"><a href="#">MORE>></a></p>
+						</div>
+					</div>
+					<div class="a3">
+						<img class="m1" src="images/index/椭圆 2 拷贝.png" alt="">
+						<div class="aa1">
+							<p class="p1"><a href="#">【网易新闻】向艺术珠冠高级定制出发 80后设计师苏珊向巴黎进军</a></p>
+							<div class="aa2 clear">
+							    <img src="images/index/时间 历史记录 计时 钟表 线性.png" alt="">
+							    <p class="p2">2020年3月13日 10:30 </p>
+							</div>
+							<p class="p3">2020年3月，苏珊发布了自己的礼服作品，蕾丝、纱质的晶莹剔透使得11年系列礼服频频亮相国内外红毯，备受时尚界和娱乐圈的关注......</p>
+							<p class="p4"><a href="#">MORE>></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/swiperindex.min.js"></script>
+	<script>
+    var swiper = new Swiper(' .new1 .jz .bot .left .swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+	
+	
+	
+	
+	
+	
+	<div class="new2">
+		<div class="shang"><img src="images/new/标题2.jpg" alt=""></div>
+		<div class="xia clear">
+			<div class="left wow bounceInLeft">
+				<div class="m1"><img src="images/new/1.png" alt=""></div>
+				<div class="text1">
+					<a href="#">
+						<p class="p1">2019最新新娘婚纱流行元素解析</p>
+				    <p class="p2">婚礼的风格随着人们审美品位的变化，一直处在发展更新之中。针对婚纱的款式类型说，人们比较青睐哪种婚纱礼服款式呢......</p>
+				    <p class="p3">MORE>></p>
+					</a>
+				</div>
+			</div>
+			<div class="mid wow fadeInDown">
+				
+				<div class="text1">
+					<a href="#">
+						<p class="p1">各种身材新娘礼服挑选技巧</p>
+				    <p class="p2">选择婚纱礼服的时候，不光要看款式造型，最重要的是要根据自己的身材来进行挑选。各种身材新娘礼服挑选技巧，哪款婚纱最适合你......</p>
+				    <p class="p3">MORE>></p>
+					</a>
+				</div>
+				<div class="m1"><img src="images/new/2.png" alt=""></div>
+			
+			</div>
+			<div class="right wow bounceInRight">
+				<div class="m1"><img src="images/new/3.png" alt=""></div>
+				<div class="text1">
+					<a href="#">
+						<p class="p1">新娘婚纱礼服常用面料特点分析</p>
+				    <p class="p2">想要挑对适合自己的婚纱，面料材质选择上就一定不能草率决定。新娘婚纱礼服常用面料特点分析送给新娘们，进行你们的婚纱挑选吧....</p>
+				    <p class="p3">MORE>></p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="new3">
+		<div class="shang"><img src="images/new/标题3.jpg" alt=""></div>
+		<div class="jz">
+			<div class="top clear">
+				<div class="left clear">
+					<div class="m1 wow bounceInLeft"><a href="#"> <img src="images/new/4.png" alt=""></a></div>
+					<div class="t1 wow zoomIn">
+						<a href="#">
+							<p class="p1">小个子新娘如何选择婚纱？</p>
+							<p class="p2">首先从最重要的款式来说，小个子新娘想选择适合自己的婚纱的话，就要尽量避开繁复设计的大裙摆婚纱。造型设计上，不用有过多的花样图案，尽量采取干净利落的风格为好......</p>
+							<p class="p3">MORE>></p>
+					    </a>
+					</div>
+				</div>
+				<div class="right clear">
+					<div class="m1  wow bounceInRight"><a href="#"> <img src="images/new/5.png" alt=""></a></div>
+					<div class="t1 wow zoomIn">
+						<a href="#">
+							<p class="p1">身材胖如何选择婚纱？</p>
+							<p class="p2">首先，从材质上来说，有些材质是不适合身材 偏胖的新娘穿着的。一般来说，比较厚的进口缎面，是最适合身材偏胖的新娘的一种婚纱材质。</p>
+							<p class="p3">MORE>></p>
+					    </a>
+					</div>
+				</div>
+			</div>
+			<div class="bot">
+				<div class="left clear">
+					<div class="m1 wow bounceInLeft"><a href="#"> <img src="images/new/6.png" alt=""></a></div>
+					<div class="t1 wow zoomIn">
+						<a href="#">
+							<p class="p1">缎面婚纱挑选时要注意哪些？</p>
+							<p class="p2">缎面一直都是公认的，比较具有高级感的一种礼服面料。我们很多明星在结婚时，也挑选的缎面婚纱，看上去会很高雅优美，还有视觉上拉长身高的作用......</p>
+							<p class="p3">MORE>></p>
+					    </a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="m1 wow bounceInRight"><a href="#"> <img src="images/new/7.png" alt=""></a></div>
+					<div class="t1 wow zoomIn">
+						<a href="#">
+							<p class="p1">婚礼结束后婚纱怎么保存？</p>
+							<p class="p2">婚礼结束后婚纱怎么保存?婚纱一般都是比较脆弱的，也不好直接折叠。很多的新娘都对自己的婚纱非常爱惜，所以想知道怎样去好好保存自己的婚纱。感兴趣的小伙伴一起来看看吧......</p>
+							<p class="p3">MORE>></p>
+					    </a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="aa hvr-shutter-out-horizontal">
+			<p class="p5"><a href="#">查看更多 >> </a></p>
+		
+		</div>
+			
+			
+			
+		</div>
+		
+		
+	</div>
+	
+	<div class="box9">
+		<div class="jz clear">
+			<div class="shang clear">
+				<div class="left clear">
+						<div class="a1">
+							<ul>
+								<li><a href="index.html" target="_blank">返回首页</a></li>
+								<li><a href="#">返回顶部</a></li>
+							</ul>
+						</div>
+						<div class="a2">
+							<p class="p1">关于我们</p>
+							<ul>
+								<li><a href="aboutus.html" target="_blank">品牌介绍 </a></li>
+								<li><a href="aboutus.html" target="_blank">创始人介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">团队介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">发展历程  </a></li>
+							</ul>
+						</div>
+						<div class="a3">
+								<p class="p1">产品分类</p>
+							<ul>
+								<li><a href="product.html" target="_blank">婚纱系列  </a></li>
+								<li><a href="product.html" target="_blank">高端定制系列  </a></li>
+								<li><a href="product.html" target="_blank">礼服系列   </a></li>
+								<li><a href="product.html" target="_blank">饰品系列  </a></li>
+							</ul>
+						</div>
+						<div class="a4">
+							<p class="p1">资讯中心</p>
+							<ul>
+								<li><a href="new.html" target="_blank">内部资讯</a></li>
+								<li><a href="new.html" target="_blank">行业资讯</a></li>
+								<li><a href="new.html" target="_blank">常见问题</a></li>
+								<li><a href="new.html" target="_blank">选购常识</a></li>
+							</ul>
+						</div>
+						<div class="a5">
+							<p class="p1">定制预约</p>
+							<ul>
+								<li><a href="customize.html" target="_blank">定制介绍 </a></li>
+								<li><a href="customize.html" target="_blank">定制流程 </a></li>
+								<li><a href="customize.html" target="_blank">定制预约 </a></li>
+								<li><a href="customize.html" target="_blank">注意事项 </a></li>
+							</ul>
+						</div>
+			</div>
+			<div class="mid">
+				<p class="p7">客服电话：400-628-1176</p>
+				<p class="p7">客服邮箱：kefu@onlyqueen.com</p>
+				<p class="p7">服务时间：9:00 - 21:00</p>
+				<p class="p7">投诉电话：(027)65818622</p>
+				<p class="p7">投诉邮箱：onlyqueen@oq.com </p>
+			</div>
+			<div class="right1">
+				<img src="images/index/下载1.png" alt="">
+				<p>微信二维码 </p>
+			
+			</div>
+			<div class="right2">
+				<img src="images/index/下载 拷贝.png" alt="">
+				<p>手机APP二维码 </p>
+			
+			</div>
+			</div>
+			<div class="xia">
+			     <p class="p10">only queen唯一婚纱设计工作室版权所有</p>
+			</div>
+				
+		</div>
+	</div>
+	
+	
+	
+</body>
+</html>

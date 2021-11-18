@@ -1,0 +1,662 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/index/favicon.ico">
+	<link rel="stylesheet" href="css/hoverhhf.css">
+	<script src="js/jquery-3.2.1.min.js" language="javascript"></script>
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/wow.min.js" language="javascript"></script>
+	 <link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index/normalize.css" /><!--CSS RESET-->
+	<link rel="stylesheet" type="text/css" href="css/index/htmleaf-demo.css"><!--演示页面样式，使用时可以不引用-->
+	<link rel="stylesheet" href="css/index/styleindex.css">
+	<style>
+		.index11{width: 100%;height: 550px;}
+		.index11 .jz{width: 1204px;height: 550px;background-image: url(images/index/FLEURETTE-3.png);background-position: center;margin: 0 auto;margin-top: 0px;overflow: hidden}
+		
+		.index11 .htmleaf-container{margin-top: 80px;overflow: hidden}
+		.nav .pre{color: #424242}
+	</style>
+	
+	
+	<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+		};
+   </script>
+	
+<script>
+	var index=0;
+	var play=null;
+	$(function(){
+		$(".box41 .yd li").mouseover(function(){
+			clearInterval(play);
+			index=$(this).index();
+			$(this).addClass("aaa").siblings().removeClass("aaa");
+			$(".box41 .pct img").eq(index).fadeIn().siblings("img").fadeOut();
+		}).mouseout(function(){
+			autoplay();	
+		});
+		
+		
+		function autoplay(){
+		play=setInterval(function(){
+			index++;
+			if(index>8){index=-1;}else{
+			$(".box41 .yd li").eq(index).addClass("aaa").siblings().removeClass("aaa");
+			$(".box41 .pct img").eq(index).fadeIn().siblings("img").fadeOut();}
+			},2000);	
+		
+	}
+			autoplay();
+			
+	});
+
+</script>
+	
+	
+<script>
+	$(function(){
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
+		});
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).find(".down").stop(true).slideDown(300);
+		});
+		$(".box2 .jz .right li").mouseleave(function(){
+			$(this).find(".down").stop(true).slideUp(300);
+		});
+	});	
+</script>
+	
+<script>
+	$(function(){                                                     //当文档加载后读取以下函数
+		var xx=$(".box1").height()                                   //var为一个值，假设xx=class为box1的高度
+		$(window).scroll(function(){                                //当浏览器窗口滑动的时候执行以下动作
+		var yy=$(window).scrollTop();                               //var为一个值，假设yy等于浏览器窗口高度
+			if(yy>xx){$(".box2").addClass("hover1")}                  //如果yy>xx,那么给.box2添加一个class为hover1的属性值
+			else{$(".box2").removeClass("hover1")}                    //反之yy<xx，就给.box2移除class为hover1的属性	 
+		});
+	})
+
+
+</script>
+ <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: auto;
+	  margin-top:80px;
+	  overflow: hidden;
+	  z-index: -9999
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+		  .swiper-container{
+    --swiper-theme-color: #FFBE00;/* 设置Swiper风格 */
+    --swiper-navigation-color: #FFBE00;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 50px;/* 设置按钮大小 */
+	z-index: 0
+  }
+		  	  
+  </style>	
+	
+	
+	<style>
+	  .box7 .jz .bot .left .swiper-container .swiper-wrapper{float: left}
+	  .box7 .jz .bot .left .swiper-container .swiper-wrapper .swiper-slide img{width: 455px;display-block;margin: 0 auto;}
+    .box7 .jz .bot .left .swiper-container {
+      width: 455px;
+      height: 610px;
+	margin: 0 auto;margin-top:20px;
+    }
+    .box7 .jz .bot .left .swiper-container .swiper-wrapper .swiper-slide .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+	
+	
+	
+
+</head>
+
+<body>
+	<div class="box1">
+		<div class="jz clear">
+			<div class="left clear">
+				<img class="m1" src="images/login/座机.png" alt="">
+				<p class="p1">客服热线: 400-628-1176</p>
+			</div>
+			<div class="right clear">
+				<div class="a1 clear">
+					<img class="m2" src="images/login/YUI-微博.png"  alt="">
+					<p class="p2"><a href="#">关注新浪微博</a></p>
+				</div>
+				<div class="a2 clear">
+					<img class="m3" src="images/login/微信.png" alt="">
+					<p class="p3"><a href="#">关注微信</a></p>
+				</div>
+				<div class="a3">
+					<span class="span1"><a href="Login.html" target="_blank">登录 / </a></span>
+					<span class="span2"><a href="register.html" target="_blank">注册</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box2">
+		<div class="jz clear">
+			<div class="left">
+			<img src="images/login/logo(横）.png" alt=""></div>
+			<div class="right">
+			  <ul class="clear">
+				  <li class="hover"><a href="#">首页</a>
+					  <div class="down">
+						   <a href="#"><p>最新活动</p></a>
+						   <a href="#"><p>产品分类</p></a>
+						   <a href="#"><p>资讯中心</p></a>
+						   <a href="#"><p>案例展示</p></a>
+					  </div>
+				  </li>
+				  <li><a href="product.html" target="_blank">产品分类</a>
+					   <div class="down down2">
+						   <a href="weddingdress.html" target="_blank"><p>婚纱系列</p></a>
+						   <a href="#"><p>礼服系列</p></a>
+						   <a href="#"><p>饰品系列</p></a>
+					  </div>
+				  </li>
+				  <li><a href="customize.html" target="_blank">定制预约</a>
+					    <div class="down down2">
+						   <a href="#"><p>服务流程</p></a>
+						   <a href="#"><p>定制预约</p></a>
+						   <a href="#"><p>精彩回顾</p></a>
+					  </div>
+				  </li>
+				  <li><a href="new.html" target="_blank">资讯中心</a>
+					    <div class="down down2">
+						   <a href="#"><p>内部资讯</p></a>
+						   <a href="#"><p>行业资讯</p></a>
+						   <a href="#"><p>常见问题</p></a>
+					    </div>
+				  </li>
+				  <li><a href="aboutus.html" target="_blank">品牌介绍</a>
+					     <div class="down">
+						   <a href="#"><p>品牌介绍</p></a>
+						   <a href="#"><p>发展历程</p></a>
+						   <a href="#"><p>公司规模</p></a>
+						   <a href="#"><p>制作工艺</p></a>
+					     </div>
+				  </li>
+				  <li><a href="recruit.html" target="_blank">人员招聘</a>
+					    <div class="down">
+						   <a href="#"><p>婚纱设计师</p></a>
+						   <a href="#"><p>面料开发员</p></a>
+						   <a href="#"><p>策划专员</p></a>
+						   <a href="#"><p>陈列师</p></a>
+					     </div>
+				  </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	
+
+<div class="banner">
+	  <div class="swiper-container">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide"><img src="images/index/BANNER.jpg" width="100%" alt=""></div>
+			  <div class="swiper-slide"><img src="images/index/banner1.jpg" width="100%" alt=""></div>
+			  <div class="swiper-slide"><img src="images/index/banner2.jpg" width="100%" alt=""></div>
+			  <div class="swiper-slide"><img src="images/index/banner3.jpg" width="100%" alt=""></div>
+			  <div class="swiper-slide"><img src="images/index/banner4.jpg" width="100%" alt=""></div>
+			</div>
+		<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+	   </div>
+	   <div class="jz">
+		  <div class="xf wow slideInLeft">
+			  <ul class="ul1">
+				   <li class="li1"><a href="#">婚纱系列</a>
+					   <ul class="ul2"> 
+						   <li><a href="#">A字型公主系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣系列</a></li>
+						   <li><a href="#">舞会型缎面系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">高端定制系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">气质女王类型</a></li>
+						   <li><a href="#">复古浪漫类型</a></li>
+						   <li><a href="#">幻境森林类型</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">礼服系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">仙气流苏吊带宴会服</a></li>
+						   <li><a href="#">气质亮片鱼尾晚礼服</a></li>
+						   <li><a href="#">简约绸缎舞会服</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">饰品系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">皇冠系列</a></li>
+						   <li><a href="#">头纱系列</a></li>
+						   <li><a href="#">首饰系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">热门推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">爆款推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">新品推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+			  </ul>
+		  </div>
+		</div>
+	</div>
+	<script src="js/swiper.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+     // pagination: {
+//        el: '.swiper-pagination',
+//      },
+	   loop : true,
+		autoplay:true,
+		autoplay: {
+    delay: 2000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true,
+    },
+	 navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },	
+    });
+  </script>
+
+
+	
+	
+	<div class="box5">
+		<div class="jz">
+			<div class="top wow fadeIn">
+				<img src="images/index/未标题-2.png" alt="">
+			</div>
+			<div class="bot clear">
+				<div class="a1 wow rotateInDownLeft">
+					<img src="images/index/rosa-01.png" alt="">
+				<div class="b1">
+					<p class="p1"><a href="#">人气套餐</a></p>
+					<p class="p2"><a href="">8000及以下价位范围内自选婚纱，送微电影导演跟拍一天，记录婚礼完美时刻。</a></p>
+					<p class="p3"><a href="#">立即预约 >></a></p>
+				</div>
+
+				</div>
+				<div class="a2 wow zoomInDown">
+					<img class="mm1" src="images/index/FLEURETTE-1.png" alt="">
+					<div class="b2">
+						<p class="p1"><a href="#">高端定制套餐</a></p>
+						<p class="p2"><a href="#">20000元以上的高端定制,微电影导演跟拍一天+微电影花絮特辑+婚礼化妆师一天，记录新人完美时刻。</a></p>
+						<p class="p3"><a href="#">立即预约 >></a></p>
+					</div>
+				</div>
+				<div class="a3 wow rotateInDownRight">
+					<img src="images/index/BIANCA.png" alt="">
+					<div class="b3">
+						<p class="p1"><a href="#">活动套餐</a></p>
+						<p class="p2"><a href="#">8000-15000价位的自选婚纱，送送微电影导演跟拍一天+施华诺世奇水晶手链一条。</a></p>
+						<p class="p3"><a href="#">立即预约 >></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box6">
+		<div class="shang">
+		  <img src="images/index/未标题-1.png" alt="">
+		</div>
+		<div class="xia clear">
+			<div class="left wow fadeInLeft">
+				<div class="mm1">
+					<img src="images/index/dress_01.png" alt="">
+				</div>
+				<div class="c1 ">
+				<p class="p1"><a href="product.html" target="_blank">婚纱系列</a></p>
+				</div>
+			    
+				<div class="z1">
+					<p class="ppp1">婚 纱 系 列</p>
+					<p class="ppp2"><a href="#">查看更多 >> </a></p>
+					<div class="dx">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="right wow fadeInRight">
+				<div class="aa clear">
+					<div class="a1">
+						<img src="images/index/111.png" alt="">
+						<div class="pp2 ">
+							<p class="p2"><a href="product.html" target="_blank">高端定制系列</a></p>
+						</div>
+						<div class="z2">
+							<p class="ppp1">高端定制系列</p>
+							<p class="ppp2"><a href="#">查看更多 >> </a></p>
+							<div class="dx">
+								<div class="a1"></div>
+								<div class="a2"></div>
+								<div class="a3"></div>
+								<div class="a4"></div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="a2">
+						<img src="images/index/222png.png" alt="">
+						<div class="pp3">
+							<p class="p3"><a href="product.html" target="_blank">礼服系列</a></p>
+						</div>
+						<div class="z3">
+							<p class="ppp1">礼 服 系 列</p>
+							<p class="ppp2"><a href="#">查看更多 >> </a></p>
+							<div class="dx">
+								<div class="a1"></div>
+								<div class="a2"></div>
+								<div class="a3"></div>
+								<div class="a4"></div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			
+				
+			    <div class="bb">
+					<div class="mm2"><img src="images/index/333.png" alt=""></div>
+					<div class="pp4">
+						<p class="p4"><a href="product.html" target="_blank">饰品系列</a></p>
+					</div>
+						<div class="z4">
+							<p class="ppp1">饰 品 系 列</p>
+							<p class="ppp2"><a href="#">查看更多 >> </a></p>
+							<div class="dx">
+								<div class="a1"></div>
+								<div class="a2"></div>
+								<div class="a3"></div>
+								<div class="a4"></div>
+							</div>
+						</div>
+				</div>
+				
+				
+				
+				
+		   </div>
+	   </div>
+	</div>
+	
+	<div class="box7">
+		<div class="jz">
+			<div class="top">
+			     <img src="images/index/未标题-3.png" alt="">
+			</div>
+			<div class="bot clear">
+				<div class="left wow fadeInLeft">
+						
+						  <div class="swiper-container">
+							<div class="swiper-wrapper">
+							  <div class="swiper-slide"><img src="images/index/图层 12.png" alt=""> </div>
+							  <div class="swiper-slide"><img src="images/index/图层121.png" alt=""></div>
+							  <div class="swiper-slide"><img src="images/index/图层122.png" alt=""></div>
+							  <div class="swiper-slide"><img src="images/index/图层123.png" alt=""></div>
+
+							</div>
+							<!-- Add Arrows -->
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						  </div>
+					
+					
+				</div>
+				<div class="right wow fadeInRight">
+					<div class="a1 clear wow rotateInDownRight">
+						<img class="m1" src="images/index/椭圆 2 拷贝.png" alt="">
+						<div class="aa1">
+							<p class="p1"><a href="#">【腾讯新闻】ONLY QUEEN婚纱高端定制系列首次亮相巴黎时装周</a></p>
+							 <div class="aa2 clear">
+							    <img src="images/index/时间 历史记录 计时 钟表 线性.png" alt="">
+							     <p class="p2">2020年8月20日 12:30 </p>
+							 </div>
+							 <p class="p3">8月初，设计师品牌ONLY QUEEN于四季花园国际宴会中心发布2019-2020春夏婚纱礼服系列，灵感源自英国皇家赛马会Royal Ascot.设计师苏珊......</p>
+							<p class="p4"><a href="#">MORE>></a></p>
+						</div>
+					</div>
+					<div class="a2 clear wow zoomIn">
+						<img class="m1" src="images/index/椭圆 2 拷贝.png" alt="">
+						<div class="aa1">
+							<p class="p1"><a href="#">【中国经济网】设计师苏珊荣获"光华龙腾奖中国设计业十大杰出青年"</a></p>
+							 <div class="aa2 clear">
+							    <img src="images/index/时间 历史记录 计时 钟表 线性.png" alt="">
+							     <p class="p2">2020年7月13日 9:30 </p>
+							</div>
+							<p class="p3">中国经济网天津7月11日讯（周永亮）7月10日，2019（第十五届）“光华龙腾奖”颁奖盛典在天津华侨城欢乐谷演播大厅隆重举办，......</p>
+							<p class="p4"><a href="#">MORE>></a></p>
+						</div>
+					</div>
+					<div class="a3 clear  wow rotateInUpRight">
+						<img class="m1" src="images/index/椭圆 2 拷贝.png" alt="">
+						<div class="aa1">
+							<p class="p1"><a href="#">【网易新闻】向艺术珠冠高级定制出发 80后设计师苏珊向巴黎进军</a></p>
+							<div class="aa2 clear">
+							    <img src="images/index/时间 历史记录 计时 钟表 线性.png" alt="">
+							    <p class="p2">2020年3月13日 10:30 </p>
+							</div>
+							<p class="p3">2020年3月，苏珊发布了自己的礼服作品，蕾丝、纱质的晶莹剔透使得11年系列礼服频频亮相国内外红毯，备受时尚界和娱乐圈的关注......</p>
+							<p class="p4"><a href="#">MORE>></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/swiperindex.min.js"></script>
+	<script>
+    var swiper = new Swiper('.box7 .jz .bot .left .swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+	
+	
+	
+	<div class="box8">
+		<div class="jz">
+			<div class="top">
+				<img src="images/index/未标题-4.png" alt="">
+			</div>
+			<div class="bot">
+					<img class="m1 wow rotateIn" src="images/index/684e58a1ly1fsvk7zm32lj21400qon3v.png" alt="">
+					<img class= "m2 wow rotateIn" src="images/index/webwxgetmsgimg111.png" alt="">
+					<img class="m3 wow rotateIn" src="images/index/webwxgetmsgimg (1).png" alt="">
+					<img class="m4 wow rotateIn" src="images/index/webwxgetmsgimg (7).png" alt="">
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="index11">
+		<div class="jz">
+		<div class="htmleaf-container">
+		
+		<p id="loading">loading...</p>
+		<div id="images">
+		  <div class="lighten">
+		    <img src="images/index/lighten2.jpg" width="1200" height="763.5" alt="" />
+		    <img src="images/index/lighten2.jpg" width="1200" height="763.5" alt="" />
+		    <img src="images/index/lighten2.jpg" width="1200" height="763.5" alt="" />
+		    <img src="images/index/lighten2.jpg" width="1200" height="763.5" alt="" />
+		  </div>
+		  <div class="normal">
+		    <img src="images/index/01.jpg" width="1200" height="763.5" alt="" />
+		    <img src="images/index/02.jpg" width="1200" height="763.5" alt="" />
+		    <img src="images/index/03.jpg" width="1200" height="763.5" alt="" />
+		    <img src="images/index/04.jpg" width="1200" height="763.5" alt="" />
+		  </div>
+		  <nav>
+		    <ul>
+		      <li class="pre"></li>
+		      <li class="next"></li>
+		    </ul>
+		  </nav>
+		</div>
+	</div>
+		</div>	
+	</div>
+	<script  src="js/index/index.js"></script>
+	
+	
+	
+	
+	
+	
+	<div class="box9">
+		<div class="jz clear">
+			<div class="shang clear">
+				<div class="left clear">
+						<div class="a1">
+							<ul>
+								<li><a href="#">返回首页</a></li>
+								<li><a href="#">返回顶部</a></li>
+							</ul>
+						</div>
+						<div class="a2">
+							<p class="p1">关于我们</p>
+							<ul>
+								<li><a href="aboutus.html" target="_blank">品牌介绍 </a></li>
+								<li><a href="aboutus.html" target="_blank">创始人介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">团队介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">发展历程  </a></li>
+							</ul>
+						</div>
+						<div class="a3">
+								<p class="p1">产品分类</p>
+							<ul>
+								<li><a href="product.html" target="_blank">婚纱系列  </a></li>
+								<li><a href="product.html" target="_blank">高端定制系列  </a></li>
+								<li><a href="product.html" target="_blank">礼服系列   </a></li>
+								<li><a href="product.html" target="_blank">饰品系列  </a></li>
+							</ul>
+						</div>
+						<div class="a4">
+							<p class="p1">资讯中心</p>
+							<ul>
+								<li><a href="new.html" target="_blank">内部资讯</a></li>
+								<li><a href="new.html" target="_blank">行业资讯</a></li>
+								<li><a href="new.html" target="_blank">常见问题</a></li>
+								<li><a href="new.html" target="_blank">选购常识</a></li>
+							</ul>
+						</div>
+						<div class="a5">
+							<p class="p1">定制预约</p>
+							<ul>
+								<li><a href="customize.html" target="_blank">定制介绍 </a></li>
+								<li><a href="customize.html" target="_blank">定制流程 </a></li>
+								<li><a href="customize.html" target="_blank">定制预约 </a></li>
+								<li><a href="customize.html" target="_blank">注意事项 </a></li>
+							</ul>
+						</div>
+			</div>
+			<div class="mid">
+				<p class="p7">客服电话：400-628-1176</p>
+				<p class="p7">客服邮箱：kefu@onlyqueen.com</p>
+				<p class="p7">服务时间：9:00 - 21:00</p>
+				<p class="p7">投诉电话：(027)65818622</p>
+				<p class="p7">投诉邮箱：onlyqueen@oq.com </p>
+			</div>
+			<div class="right1">
+				<img src="images/index/下载1.png" alt="">
+				<p>微信二维码 </p>
+			
+			</div>
+			<div class="right2">
+				<img src="images/index/下载 拷贝.png" alt="">
+				<p>手机APP二维码 </p>
+			</div>
+			</div>
+			<div class="xia">
+			     <p class="p10">only queen唯一婚纱设计工作室版权所有</p>
+			</div>	
+		</div>
+	</div>
+	
+
+</body>
+</html>

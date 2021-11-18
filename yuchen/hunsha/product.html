@@ -1,0 +1,516 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>产品</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/index/favicon.ico">
+	<link rel="stylesheet" href="css/hoverhhf.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js" language="javascript"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	
+	<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+		};
+   </script>
+	
+	<script>
+	$(function(){
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
+		});
+		$(".box2 .jz .right li").mouseenter(function(){
+			$(this).find(".down").stop(true).slideDown(300);
+		});
+		$(".box2 .jz .right li").mouseleave(function(){
+			$(this).find(".down").stop(true).slideUp(300);
+		});
+	});	
+</script>
+	
+<script>
+	$(function(){                                                     //当文档加载后读取以下函数
+		var xx=$(".box1").height()                                   //var为一个值，假设xx=class为box1的高度
+		$(window).scroll(function(){                                //当浏览器窗口滑动的时候执行以下动作
+		var yy=$(window).scrollTop();                               //var为一个值，假设yy等于浏览器窗口高度
+			if(yy>xx){$(".box2").addClass("hover1")}                  //如果yy>xx,那么给.box2添加一个class为hover1的属性值
+			else{$(".box2").removeClass("hover1")}                    //反之yy<xx，就给.box2移除class为hover1的属性	 
+		});
+	})
+
+
+</script>
+	
+	
+	<style>
+	.nav .jz .banner{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+	position: relative;
+}
+.nav .jz .banner .banner-view{
+	position: relative;
+	height: 100%;
+	z-index: 999;
+	background-repeat: no-repeat;
+}
+.banner-view i{
+	position: relative;
+	display: block;
+	float: left;
+	background-repeat: no-repeat;
+}
+.banner-btn{
+	position: absolute;
+	width: 100%;
+	height: 0;
+	top: 45%;
+	font-family: "宋体";
+	font-size: 20px;
+	z-index: 1000;
+}
+.banner-btn span{
+	display: block;
+	float: left;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: 800;
+}
+.banner-btn span:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+.banner-btn span + span{
+	float: right;
+}
+.banner-number{
+	position: absolute;
+	bottom: 35px;
+	width: 100%;
+	height: 0;
+	font-size: 0;
+	text-align: center;
+	z-index: 1000;
+}
+.banner-number > *{
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 0 8px;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+.banner-number  > *:hover,
+.banner-number  > *.on{
+	background-color: #ffc300;
+}
+.banner-progres{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 3px;
+	z-index: 1000;
+}
+.banner-progres i{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 3px;
+	display: block;
+	height: 100%;
+	width: 0;
+}
+.banner42{width: 100%;height: 700px;overflow: hidden;margin-top: 80px;}			
+</style>	
+	
+	
+	
+	
+	
+</head>
+
+<body>
+		<div class="box1">
+		<div class="jz clear">
+			<div class="left clear">
+				<img class="m1" src="images/login/座机.png" alt="">
+				<p class="p1">客服热线: 400-628-1176</p>
+			</div>
+			<div class="right clear">
+				<div class="a1 clear">
+					<img class="m2" src="images/login/YUI-微博.png"  alt="">
+					<p class="p2"><a href="#">关注新浪微博</a></p>
+				</div>
+				<div class="a2 clear">
+					<img class="m3" src="images/login/微信.png" alt="">
+					<p class="p3"><a href="#">关注微信</a></p>
+				</div>
+				<div class="a3">
+					<span class="span1"><a href="Login.html" target="_blank">登录 / </a></span>
+					<span class="span2"><a href="register.html" target="_blank">注册</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box2">
+		<div class="jz clear">
+			<div class="left">
+			<img src="images/login/logo(横）.png" alt=""></div>
+			<div class="right">
+			  <ul>
+				  <li class="hover"><a href="index.html" target="_blank">首页</a>
+					  <div class="down">
+						   <a href="#"><p>最新活动</p></a>
+						   <a href="#"><p>产品分类</p></a>
+						   <a href="#"><p>资讯中心</p></a>
+						   <a href="#"><p>案例展示</p></a>
+					  </div>
+				  </li>
+				  <li><a href="#">产品分类</a>
+					  <div class="down down2">
+						   <a href="weddingdress.html" target="_blank"><p>婚纱系列</p></a>
+						   <a href="#"><p>礼服系列</p></a>
+						   <a href="#"><p>饰品系列</p></a>
+					  </div>
+				  </li>
+				  <li><a href="customize.html" target="_blank">定制预约</a>
+					  <div class="down down2">
+						   <a href="#"><p>服务流程</p></a>
+						   <a href="#"><p>定制预约</p></a>
+						   <a href="#"><p>精彩回顾</p></a>
+					  </div>
+				  </li>
+				  <li><a href="new.html"  target="_blank">资讯中心</a>
+					  <div class="down down2">
+						   <a href="#"><p>内部资讯</p></a>
+						   <a href="#"><p>行业资讯</p></a>
+						   <a href="#"><p>常见问题</p></a>
+					    </div>
+				
+				  </li>
+				  <li><a href="aboutus.html" target="_blank">品牌介绍</a>
+					  <div class="down">
+						   <a href="#"><p>品牌介绍</p></a>
+						   <a href="#"><p>发展历程</p></a>
+						   <a href="#"><p>公司规模</p></a>
+						   <a href="#"><p>制作工艺</p></a>
+					     </div>
+
+				  </li>
+				  <li><a href="recruit.html" target="_blank">人员招聘</a>
+					   <div class="down">
+						   <a href="#"><p>婚纱设计师</p></a>
+						   <a href="#"><p>面料开发员</p></a>
+						   <a href="#"><p>策划专员</p></a>
+						   <a href="#"><p>陈列师</p></a>
+					     </div>
+				  
+				  
+				  </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+<div class="banner42">
+	<div class="banner" id="banner1" style="margin: 0 auto;">
+				<div class="banner-view"></div>
+				<div class="banner-btn"></div>
+				<div class="banner-number"></div>
+				<div class="banner-progres"></div>
+			</div>
+
+			<div class="banner" id="banner2" style="margin: 0 auto;">
+				<div class="banner-view"></div>
+				<div class="banner-btn"></div>
+				<div class="banner-number"></div>
+				<div class="banner-progres"></div>
+			</div>	
+	
+	<div class="jz">
+		  <div class="xf wow slideInLeft">
+			  <ul class="ul1">
+				   <li class="li1"><a href="#">婚纱系列</a>
+					   <ul class="ul2"> 
+						   <li><a href="#">A字型公主系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣系列</a></li>
+						   <li><a href="#">舞会型缎面系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">高端定制系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">气质女王类型</a></li>
+						   <li><a href="#">复古浪漫类型</a></li>
+						   <li><a href="#">幻境森林类型</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">礼服系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">仙气流苏吊带宴会服</a></li>
+						   <li><a href="#">气质亮片鱼尾晚礼服</a></li>
+						   <li><a href="#">简约绸缎舞会服</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">饰品系列</a>
+					   <ul class="ul2">
+						   <li><a href="#">皇冠系列</a></li>
+						   <li><a href="#">头纱系列</a></li>
+						   <li><a href="#">首饰系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">热门推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">爆款推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+				   <li class="li1"><a href="#">新品推荐</a>
+					   <ul class="ul2">
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+						   <li><a href="weddingdress.html" target="_blank">美人鱼刺绣婚纱系列</a></li>
+					   </ul>
+				  </li>
+			  </ul>
+		  </div>
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="js/main-1.js"></script>
+		<script type="text/javascript">
+			var banner = new FragmentBanner({
+				container : "#banner1",//选择容器 必选
+				imgs : ['images/product/banner.png','images/product/banner3.jpg','images/product/banner4.jpg'],//图片集合 必选
+				//size : {
+//					width : 100%,
+//					height : auto
+//				},//容器的大小 可选
+				//行数与列数 可选
+				grid : {
+					line : 12,
+					list : 14
+				},
+				index: 0,//图片集合的索引位置 可选
+				type : 2,//切换类型 1 ， 2 可选
+				boxTime : 5000,//小方块来回运动的时长 可选
+				fnTime : 10000//banner切换的时长 可选
+			});
+
+			/*
+			** 只填两个必要参数也是可以的
+			*/
+			var banenr2 = new FragmentBanner({
+				container : "#banner2",//选择容器 必选
+				imgs : ['images/product/banner.png','images/product/banner3.jpg','images/product/banner4.jpg'],//图片集合 
+			});
+		</script>	
+	
+	
+	
+	
+	
+	
+	
+	<div class="pod1">
+		<div class="shang"><img src="images/product/标题1.png" alt=""></div>
+		
+		<div class="jz">
+			<div class="a1">
+				<div class="z1 hvr-grow ">
+					<img class="m1" src="images/product/01.png" alt="">
+				</div>
+				<div class="z2 hvr-grow ">
+					<img  class="m2" src="images/product/02.png" alt="">
+				
+				</div>
+				
+				<div class="b1 wow zoomIn">
+					<p class="p1">A字型公主网纱婚纱系列</p>
+					<p  class="p2">A字型婚纱线条流畅，是婚纱中最经典的样式，适合各种身材的新娘，此款婚纱的抹胸领口与上身的象牙串珠刺绣，加上层层叠叠的网纱，使新娘看起来活泼可爱又不失小女人的乖巧。</p>
+					<p class="p3">售价：15000元</p>
+				</div>
+				<div class="gou1 hvr-shutter-out-horizontal  wow zoomIn">
+					<p class="p4"><a href="#">立即预定</a></p>
+				</div>
+			</div>
+			<div class="a2">
+				<div class="z1  hvr-grow">
+					<img class="m1" src="images/product/03.png" alt="">
+				</div>
+				<div class="z2  hvr-grow">
+					<img class="m2" src="images/product/04.png" alt="">
+				</div>
+				
+					<div class="b1 wow zoomIn">
+					    <p class="p1"><a href="weddingdress.html" target="_blank">美人鱼型刺绣蕾丝婚纱系列</a></p>
+					    <p  class="p2">鱼尾型婚纱拥有美人鱼般动人的体态,优雅的鱼尾是争夺眼球的利器，此款露肩人鱼婚纱领口和背面饰有精美的手工蕾丝贴花。搭配一件可拆卸的缎带Mikado外套，将完美的展现你的身材。</p>
+					    <p class="p3">售价：19999元</p>
+				    </div>
+			       <div class="gou1 hvr-shutter-out-horizontal  wow zoomIn">
+					    <p class="p4"><a href="#">立即预定</a></p>
+			   	   </div>
+			
+			</div>
+			<div class="a3">
+				<div class="z1 hvr-grow">
+					<img class="m1" src="images/product/06.png" alt="">
+				</div>
+				<div class="z2 hvr-grow">
+					<img class="m2" src="images/product/05.png" alt="">
+				</div>
+					
+				    
+					<div class="b1  wow zoomIn">
+					    <p class="p1">舞会型珠饰缎面婚纱系列</p>
+					    <p  class="p2">舞会型婚纱对幻想童话般婚礼的新娘来说是最完美的选择，此款露肩的的缎面舞会婚纱与胸前的串珠蕾丝胸衣，加上蓬蓬的裙型尤其适合大型婚礼，给你来带万众瞩目的感受。</p>
+					    <p class="p3">售价：20000元</p>
+				    </div>
+			       <div class="gou1 hvr-shutter-out-horizontal  wow zoomIn">
+					    <p class="p4"><a href="#">立即预定</a></p>
+			   	   </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="pod2">
+		<div class="shang"><img src="images/product/标题2.png" alt=""></div>
+		<div class="xia">
+			<div class="jz">
+				<div class="z1 hvr-grow-shadow"><img class="m1" src="images/product/07.png" alt=""></div>
+				<div class="z2 hvr-grow-shadow"><img  class="m2" src="images/product/08.png" alt=""></div>
+				<div class="z3 hvr-grow-shadow"><img  class="m3" src="images/product/09.png" alt=""></div>
+				
+				<div class="b1 hvr-trim  wow zoomIn">
+					<p class="p1">仙气流苏吊带宴会服</p>
+					<p class="p2">此款宴会服采用长丝绒面料，层层叠叠的流苏立于手工绣花中，采用吊带露背的款式，能完美展现女性修长的身材，配以淡紫色尽显高贵华丽。</p>
+					<p class="p3">售价：5000元</p>
+					<div class="bb1 hvr-shutter-out-horizontal"><p class="p4"><a href="#">立即预定</a></p></div>
+				</div>
+			    <div class="b2 hvr-trim  wow zoomIn">
+					<p class="p1">气质亮片鱼尾晚礼服</p>
+					<p class="p2">此款礼服鱼尾裙摆能展现完美女性S型身材的特点，高领抽绉、深V垂坠领，立体绉褶、斜裁加强了剪裁对身体线条的表现，在白色礼服加上亮片，使你在晚宴上煜煜生辉，定能成为众人瞩目的焦点。</p>
+					<p class="p3">售价：3000元</p>
+					<div class="bb1 hvr-shutter-out-horizontal"><p class="p4"><a href="#">立即预定</a></p></div>
+				</div>
+				<div class="b3 hvr-trim  wow zoomIn">
+					<p class="p1">简约绸缎舞会服</p>
+					<p class="p2">此款舞会服采用光滑的绸缎面料，垂感良好，能塑造出线条分明的立体造型，领口采用一字肩造型，能完美展现女性修长的颈部线条和锁骨,更能突出修长的身材，整体而言华丽优雅，简约大气，是参加舞会的不二之选。</p>
+					<p class="p3">售价：2800元</p>
+					<div class="bb1 hvr-shutter-out-horizontal"><p class="p4"><a href="#">立即预定</a></p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="pod3">
+		<div class="shang"><img src="images/product/标题3.png" alt=""></div>
+		<div class="jz">
+			<div class="z1 hvr-ripple-out"><img  class="m1  wow bounceInLeft " src="images/product/1.png" alt=""></div>
+			<div class="z2 hvr-ripple-out "><img  class="m2  wow bounceInLeft " src="images/product/2.png" alt=""></div>
+			<div class="z3 hvr-ripple-out "><img  class="m3  wow bounceInRight " src="images/product/3.png" alt=""></div>
+			<div class="z4 hvr-ripple-out "><img  class="m4 wow bounceInRight" src="images/product/4.png" alt=""></div>
+			<div class="aa">
+				<p class="p1  wow zoomIn">婚礼头饰系列的原料选自日本akoya御木木珍珠和施华洛世奇的水晶，款式清新脱俗，吸睛夺目，大气典雅，是婚礼当天的不二之选。</p>
+				<div class="aa1 hvr-radial-out">
+					<p class="p2"><a href="#">立即抢购>></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="box9">
+		<div class="jz clear">
+			<div class="shang clear">
+				<div class="left clear">
+						<div class="a1">
+							<ul>
+								<li><a href="index.html" target="_blank">返回首页</a></li>
+								<li><a href="#">返回顶部</a></li>
+							</ul>
+						</div>
+						<div class="a2">
+							<p class="p1">关于我们</p>
+							<ul>
+								<li><a href="aboutus.html" target="_blank">品牌介绍 </a></li>
+								<li><a href="aboutus.html" target="_blank">创始人介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">团队介绍  </a></li>
+								<li><a href="aboutus.html" target="_blank">发展历程  </a></li>
+							</ul>
+						</div>
+						<div class="a3">
+								<p class="p1">产品分类</p>
+							<ul>
+								<li><a href="#">婚纱系列  </a></li>
+								<li><a href="#">高端定制系列  </a></li>
+								<li><a href="#">礼服系列   </a></li>
+								<li><a href="#">饰品系列  </a></li>
+							</ul>
+						</div>
+						<div class="a4">
+							<p class="p1">资讯中心</p>
+							<ul>
+								<li><a href="new.html" target="_blank">内部资讯</a></li>
+								<li><a href="new.html" target="_blank">行业资讯</a></li>
+								<li><a href="new.html" target="_blank">常见问题</a></li>
+								<li><a href="new.html" target="_blank">选购常识</a></li>
+							</ul>
+						</div>
+						<div class="a5">
+							<p class="p1">定制预约</p>
+							<ul>
+								<li><a href="customize.html" target="_blank">定制介绍 </a></li>
+								<li><a href="customize.html" target="_blank">定制流程 </a></li>
+								<li><a href="customize.html" target="_blank">定制预约 </a></li>
+								<li><a href="customize.html" target="_blank">注意事项 </a></li>
+							</ul>
+						</div>
+			</div>
+			<div class="mid">
+				<p class="p7">客服电话：400-628-1176</p>
+				<p class="p7">客服邮箱：kefu@onlyqueen.com</p>
+				<p class="p7">服务时间：9:00 - 21:00</p>
+				<p class="p7">投诉电话：(027)65818622</p>
+				<p class="p7">投诉邮箱：onlyqueen@oq.com </p>
+			</div>
+			<div class="right1">
+				<img src="images/index/下载1.png" alt="">
+				<p>微信二维码 </p>
+			
+			</div>
+			<div class="right2">
+				<img src="images/index/下载 拷贝.png" alt="">
+				<p>手机APP二维码 </p>
+			
+			</div>
+			</div>
+			<div class="xia">
+			     <p class="p10">only queen唯一婚纱设计工作室版权所有</p>
+			</div>
+				
+		</div>
+	</div>
+
+</body>
+</html>
